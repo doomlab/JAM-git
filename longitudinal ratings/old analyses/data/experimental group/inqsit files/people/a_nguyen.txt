@@ -1,0 +1,100 @@
+Assist	help, support, aid, having somebody's back
+Break	bash, snap, pieces, relax
+Pupil	eye, see, sight, view
+Closed	not opening, out of business, out of order, stop
+Difficult	hard, hash, not easy, hard to deal with
+Before	past, early, ahead, advance
+Challenge	duel, battle, compete, against
+Body	thin, slim, fat, masculine
+Beginning	start, new, first, pioneer
+Dancer	lean, sexy, latin, tango
+Cinema	movie, popcorn, ticket, soda
+Bashful	shy, timid, introvert, untalkative
+Melody	tune, music, harmony, forte
+Common	normal, ordinary, everyday, equal
+Cloth	soft, comfy, shirt, dress
+Casual	everyday, normal, common, ordinary
+Computer	fast, hi-tech, plastic, breakable
+Car	shiny, fast, metal, wheels
+Organize	neat, clean, in order, in place
+Chowder	chunky, creamy, soup, clam
+Assist	help, support, aid, promote
+Break	stop, snap, fracture, smash
+Pupil	eye, sight, view, see
+Closed	out of order, out of business, not open, end
+Difficult	hard, harsh, not dealable, not easy 
+Before	early, ahead, advance, past
+Challenge	battle, duel, compete, against
+Body	lean, thin, fat, masculine
+Beginning	start, first, pioneer, ahead
+Dancer	sexy, talented, latin, tango
+Cinema	movies, theater, popcorn, candy
+Bashful	shy, timid, introvert, left out
+Melody	tune, music, loud, soft
+Common	everyday, usual, normal, ordinary
+Cloth	soft, comfy, t-shirt, rough
+Casual	everyday, ordinary, normal, regular
+Computer	plastic, technology, breakable, fast
+Car	shiny, fast, metal, wheels
+Organize	neat, clean, order, list
+Chowder	clam, chunky, creamy, soup
+Assist	help, support, aid, got somebody back
+Break	smash, hit, bash, split, fracture
+Pupil	eye, see, view, sight, iris
+Closed	out of order, our of business, end, stop
+Difficult	hard, harsh, overwhelmed, not easy, uncompromised
+Before	early, ahead, advanced, the past
+Challenge	battle, compete, contest, duel, fight
+Body	lean, thin, fat, slim, masculine
+Beginning	start, first, pioneer, origin, source
+Dancer	talented, sexy, fit, performer, move the feet
+Cinema	movies, popcorn, candy, theater
+Bashful	shy, introvert, timid, embarrassed, guinea pig
+Melody	harmony, music, soft, loud
+Common	normal, ordinary, casual, everyday, equal
+Cloth	soft, cotton, silk, comfort
+Casual	normal, ordinary, everyday, regular
+Computer	fast, technology, plastic, breakable
+Car	shiny, fast, metal, power
+Organize	clean, neat, order, in line, no mess
+Chowder	chunky, creamy, clam, soup
+Assist	help, support, aid, to back somebody up
+Break	smash, hit, destroy, rupture 
+Pupil	eye, sight, view, see
+Closed	out of business, not open, end, shut down
+Difficult	hard, hash, not easy, hard to deal with
+Before	early, past, previous, ahead
+Challenge	battle, compete, fight, duel
+Body	firm, slim, thin, muscle
+Beginning	start, first, basic, just formed
+Dancer	lean, talented, smooth, sexy
+Cinema	movies, theater, popcorn, sodas
+Bashful	shy, introvert, timid, guinea pig
+Melody	harmony, soft, music, tune
+Common	normal, ordinary, everyday, equal
+Cloth	cotton, soft, comfortable, warm
+Casual	normal, ordinary, everyday, informal
+Computer	hi-tech, fast, convenient, breakable
+Car	fast, metal, shiny, automobile
+Organize	clean, neat, in order, no mess
+Chowder	soup, clam, chunky, creamy
+Assist	help, secretary, vice, director 
+Break	no class, broken, chill, relax
+Pupil	eye, sight, see, view
+Closed	not open, out of business, removed, store
+Difficult	hard, not easy, overwhelm, harsh
+Before	early, time, position, advanced
+Challenge	battle, contest, hard, difficult
+Body	masculine, lean, thin, thick
+Beginning	start, finish, first, last
+Dancer	sexy, talented, exotic, tango
+Cinema	movie, theater, popcorn, drinks
+Bashful	shy, timid, introvert, guinea pig
+Melody	harmony, music, comfortable, soft
+Common	usual, ordinary, everyday, normal
+Cloth	denim, t-shirt, soft, comfortable
+Casual	normal, informal, common, everyday
+Computer	technology, modern, fast, easily breakable
+Car	shiny, new, smell, fast
+Organize	in place, neat, clean, dustless
+Chowder	soup, clam, creamy, chunky

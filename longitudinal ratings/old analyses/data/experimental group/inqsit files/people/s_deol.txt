@@ -1,0 +1,138 @@
+Assist	help, work, give, care
+Break	tore, split, glass, crying
+Pupil	eye, black, big, light
+Closed	open, stop, late, sucks
+Difficult	hard, tuff, angry, scream
+Before	after, time, beginning, old
+Challenge	hard, tuff, beat, obstacle
+Body	shape, weight, color, thin
+Beginning	end, start, new, fun
+Dancer	thin, flexible, fun, pretty
+Cinema	movie, films, dark, popcorn
+Bashful	shy, naughty, cute, fun
+Melody	song, beat, notes, rhythm
+Common	normal, people, food, water
+Cloth	clothes, wear, warm, wool
+Casual	calm, relaxed, easy, nice
+Computer	screen, technology, memory, fast
+Car	shiny, fast, gas, money
+Organize	messy, schedule, clean, redo
+Chowder	clam, soup, dry, gross
+Assist	help, aid, student, mentor
+	
+Break	shattered, broken, pieces, glass
+	
+Pupil	eye, student, iris, mentor
+	
+Closed	shut, open, late, time
+	
+Difficult	hard, angry, mad, hurdle
+	
+Before	after, began, start, end
+	
+Challenge	hard, difficult, angry, hurdle
+	
+Body	fat, slim, ugly, pimples
+	
+Beginning	end, start, b.c., began
+	
+Dancer	cool, fit, flexible, pretty
+	
+Cinema	movie, film, actors, popcorn
+	
+Bashful	shy, child, embarrassed, youth
+	
+Melody	song, beat, rhythm, notes
+	
+Common	normal, majority, boring, no fun
+	
+Cloth	clothes, fabric, cotton, wool
+	
+Casual	chill, relaxed, jeans, friends
+	
+Computer	hardware, screen, technology, cd-rom
+	
+Car	machine, zoom, gas, money
+	
+Organize	clean, schedule, redo, cluster-free
+	
+Chowder	clam, soup, gross, powdery
+Assist	help, care, volunteer, tutor
+	
+Break	torn, shattered, heart, glass
+	
+Pupil	eye, big, black, cornea
+	
+Closed	open, shut, enter, time
+	
+Difficult	hard, sweaty, angry, sad
+	
+Before	after, beginning, end, start
+	
+Challenge	difficult, hurdle, mad, angry
+	
+Body	parts, skin, fat, muscle
+	
+Beginning	end, start, finish, time
+	
+Dancer	music, cool, pretty, thin
+	
+Cinema	movie, theater, popcorn, kiss
+	
+Bashful	shy, young, child, timid
+	
+Melody	song, beat, rythm, sound
+	
+Common	usual, normal, same, boring
+	
+Cloth	clothes, wear, cotton, wool
+	
+Casual	jeans, average, poor, american
+	
+Computer	screen, keyboard, mouse, hardware
+	
+Car	race, wheels, fast, zoom
+	
+Organize	clean, schedule, messy, clutter
+	
+Chowder	soup, clam, powdery, gross
+Assist	help, teacher, parent, advice
+Break	time, torn, dropped, shattered
+Pupil	eye, see, muscle, student
+Closed	open, shut, no entry, too late
+Difficult	hard, stressful, uneasy, challenge
+Before	after, beginning, end, past
+Challenge	hard, work, tension, stress
+Body	image, thin, fat, ugly
+Beginning	end, start, finish, first
+Dancer	cool, skinny, pretty, theater
+Cinema	movie, film, entertainment, bollywood
+Bashful	shy, child, young, unexperienced
+Melody	song, beat, rythm, music
+Common	normal, usual, same, average
+Cloth	clothes, brand names, wool, cotton
+Casual	chill, relaxed, loose, jeans
+Computer	hard drive, shiny, microsoft, apple
+Car	fast, gas, money, cool
+Organize	clean, fix, tidy-up, schedule
+Chowder	soup, clam, gross, powdery
+Assist	old people, help, volunteer, mentor
+Break	torn, holes, drop, shatter
+Pupil	eye, student, teacher, learning 
+Closed	open, shut, door, entry
+Difficult	hard, stress, work, sad
+Before	after, early, time, history
+Challenge	hard, difficult, mad, stressful
+Body	part, arm, leg, face
+Beginning	end, start, finish, race
+Dancer	pretty, movement, flow, popular
+Cinema	movie, show, watch, film
+Bashful	shy, cute, snow white, kids
+Melody	song, beat, notes, drum
+Common	alike, different, same, normal
+Cloth	wool, wear, cotton, silk
+Casual	relaxed, cool, chill, sex
+Computer	device, hardware, metallic, screen
+Car	wheels, fast, oil, big
+Organize	clean, fix, mend, tidy
+Chowder	soup, clam, gross, powder

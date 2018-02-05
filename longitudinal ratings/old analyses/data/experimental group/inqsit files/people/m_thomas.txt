@@ -1,0 +1,100 @@
+Assist	help, lend a hand, support, back up
+Break	shatter, split, fracture, time off
+Pupil	eye, student, dilate, black
+Closed	shut, blocked, obstructed, stop
+Difficult	hard, challenging, not easy, frustrating
+Before	prior, preceding, beforehand, ahead
+Challenge	task, hard, difficult, battle
+Body	human, cadaver, vital, organs
+Beginning	start, commencement, preceding, first
+Dancer	ballet, graceful, talent, stage
+Cinema	movie, theater, AMC, screen
+Bashful	shy, quiet, dwarf, timid
+Melody	tune, hum, soft, sweet
+Common	casual, ordinary, inexpensive, boring
+Cloth	fabric, thread, twill, cotton
+Casual	laid back, informal, simple, t-shirt
+Computer	Mac, Apple, PC, laptop
+Car	truck, auto, van, SUV
+Organize	neat, clean, tidy, pristine 
+Chowder	soup, thick, New England, clam
+Assist	help, lend a hand, aid, back up
+Break	shatter, vacation, time off, crack
+Pupil	student, eye, novice, learner
+Closed	shut, congested, blocked, stoppered
+Difficult	hard, stubborn, not easy, tough
+Before	prior to, ahead of, previous, earlier
+Challenge	dispute, argue, confront, contest
+Body	corpse, organization, group, majority
+Beginning	start, commence, prior, opening
+Dancer	performer, ballet, hip hop, stage
+Cinema	movies, theater, dark, screen
+Bashful	shy, quiet, timid, withdrawn
+Melody	tune, music, hum, soft
+Common	ordinary, everyday, frequent, general
+Cloth	fabric, material, clothing, textiles
+Casual	common, comfortable, informal, relaxed
+Computer	PC, laptop, Apple, notebook
+Car	vehicle, transportation, truck, van
+Organize	tidy, neat, systematic, manage
+Chowder	soup, thick, broth, New England Clam Chowder
+Assist	help, lend a hand, aid, backup 
+Break	smash, shatter, time off, crash
+Pupil	student, eye, vision, trainee
+Closed	shut, blocked, congested, stoppered
+Difficult	hard, not easy, challenge, tricky
+Before	prior, earlier, advance, previously
+Challenge	test, hard, difficult, confront
+Body	group, organization, remains, corpse
+Beginning	start, commencement, initiation, opens
+Dancer	performer, stage, music, swift
+Cinema	movie, theater, dark, popcorn
+Bashful	shy, timid, quiet, withdrawn
+Melody	tune, music, peaceful, soft
+Common	ordinary, general, familiar, normal
+Cloth	fabric, material, textile, clothing
+Casual	informal, relaxed, laid back, indifferent
+Computer	technology, complex, Apple, PC
+Car	automobile, van, vehicle, truck
+Organize	arrange, tidy, neat, classify
+Chowder	soup. clam, New England Clam Chowder, hot
+Assist	help, aid, back-up, cooperate 
+Break	shatter, time-off, broken, small pieces
+Pupil	eye, black, small, round
+Closed	shut, blocked, barricade, not open
+Difficult	hard, not easy, challenging, competitive
+Before	prior, beginning, ahead of, speedy
+Challenge	task, difficult, hard, complicated
+Body	human, vital, complex, interesting
+Beginning	start, commence, new, fresh
+Dancer	graceful, small, stage, talented
+Cinema	movies, theater, big, screen
+Bashful	shy, dwarf, quiet, mouse-like
+Melody	music, tune, soft, peaceful
+Common	plain, ordinary, usual, simple
+Cloth	clothing, fabric, soft, colors
+Casual	jeans, comfy, shorts, laid back
+Computer	technology, hi-tech, apple, mac
+Car	vehicle, transportation, big, shiny
+Organize	tidy, clean, neat, spacious
+Chowder	clam, soup, think, new england
+Assist	helpful, polite, support, aid
+Break	rest, time off, shatter, rupture
+Pupil	eye, black, small, round
+Closed	shut, blocked, stopped, clogged
+Difficult	hard, not easy, tricky, complicated
+Before	previous, prior, earlier, advanced
+Challenge	task, difficult, hard work, not easy
+Body	human, cadaver, big, complex
+Beginning	start, creation, commencement, initiation
+Dancer	ballet, graceful, talented, athletic
+Cinema	movie theater, dark, big screen, 
+Bashful	shy, quiet, meek, timid
+Melody	music, tune, pretty, sweet
+Common	ordinary, usual, widespread, universal
+Cloth	soft, fabric, colorful, clothes
+Casual	laid back, easy going, comfortable, jeans
+Computer	laptop, desktop, Apple, Windows
+Car	vehicle, fast, Chevrolet, transportation
+Organize	neat, rearrange, clean, tidy
+Chowder	soup, clam, New England, thick

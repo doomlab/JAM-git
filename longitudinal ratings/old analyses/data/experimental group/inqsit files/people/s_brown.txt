@@ -1,0 +1,100 @@
+Assist	help tutor accomodate assistant
+Break	shatter destroy ruin demolish
+Pupil	student follower classmate child
+Closed	unopened waiting door window
+Difficult	hard challenge obstacle something to overcome
+Before	preceding beginning before and after cause and effect
+Challenge	feat opportunity competition something to overcome
+Body	human flesh skin breakable
+Beginning	start time beginning and end countdown
+Dancer	poised elegant fluid well-built
+Cinema	movie theatre film black and white
+Bashful	shy quiet timid alone
+Melody	song tune harmony music
+Common	normal usual expected ordinary
+Cloth	cotton soft leather velvet
+Casual	informal mild-mannered cool calm
+Computer	website internet communication social networking
+Car	porsche acura honda toyota
+Organize	orderly not chaotic neat clean
+Chowder	soup clam chowder corn chowder crackers
+Assist	tutor helper assistant teach
+Break	shatter destroy snap hit
+Pupil	student beginner school learn
+Closed	unopened door cancelled wait
+Difficult	hard not easy challenge something to overcome
+Before	beginning start preceding before and after
+Challenge	obstacle difficulty something to overcome fight
+Body	skin human flesh anatomy
+Beginning	start before beginning and end race
+Dancer	poised elegant fluid strength
+Cinema	movie theatre black and white old-fashioned
+Bashful	shy timid scared worried
+Melody	song music tune flow
+Common	usual normal informal common and uncommon
+Cloth	soft cotton vinyl clothing
+Casual	informal smooth jeans and a t-shirt weekends
+Computer	hardware software technology website
+Car	speed velocity acura models
+Organize	not chaotic clean neat tidy
+Chowder	soup clam chowder corn chowder food
+Assist	tutor help assistant teach
+Break	destroy shatter ruin trample
+Pupil	student classmate one who is tutored inexperienced
+Closed	unopened locked unattainable to be opened
+Difficult	hard challenge something to overcome not easy
+Before	preceding before and after next first
+Challenge	obstacle something to overcome difficulty hardship
+Body	body of water human anatomy physical
+Beginning	beginning and end start preceding before
+Dancer	poised elegant fluid strong
+Cinema	movies black and white old fashioned theatre
+Bashful	shy timid fearful not outgoing
+Melody	music tune song beat
+Common	usual normal ordinary the norm
+Cloth	cotton fabric soft sewing
+Casual	laid back casual Fridays informal jeans and a t-shirt
+Computer	website hard drive software hardware
+Car	speed velocity Detroit auto
+Organize	neat tidy clean not chaotic
+Chowder	food lunch dinner soup
+Assist	help tutor assistant secretary
+Break	shatter destroy damage smash
+Pupil	student classmate one who is tutored child
+Closed	unopened shut off exit entrance
+Difficult	not easy hard challenging an obstacle
+Before	before and after preceding starting point beginning
+Challenge	opportunity something to overcome difficulty obstacle
+Body	anatomy human physiology psychology
+Beginning	start beginning and end alpha and omega starting point
+Dancer	musical cultural fluid poised
+Cinema	theatre movies black and white old-fashioned
+Bashful	shy timid uneasy tense
+Melody	music song harmony cadence
+Common	usual normal ordinary plain
+Cloth	fabric material soft flexible
+Casual	informal jeans and a t-shirt Casual Fridays comfortable
+Computer	hard drive software hardware Internet
+Car	speed velocity physics design
+Organize	not chaotic neat tidy clean
+Chowder	soup clam chowder Seattle lunch
+Assist	help tutor assistant secretary
+Break	shatter destroy blow up damage
+Pupil	student classmate learning environment school
+Closed	unopened blocked off red tape unattainable
+Difficult	hard uneasy challenging obstacle
+Before	preceding before and after cause and effect beginning
+Challenge	opposition obstacle something to overcome difficulty
+Body	human anatomy body of water ocean
+Beginning	start starting point improving before
+Dancer	Dancing with the Stars poised elegant fluid
+Cinema	movies theatre black and white film noir
+Bashful	shy timid uncertain uneasy
+Melody	tempo beat music theme
+Common	usual normal ordinary commoner
+Cloth	fabric cotton leather vinyl
+Casual	informal Casual Fridays jeans and a t-shirt low key
+Computer	hardware software Internet Microsoft
+Car	speed velocity Bonnieville Salt Flats Top Gear
+Organize	clean tidy not chaotic in place
+Chowder	clam chowder soup lunch seafood
