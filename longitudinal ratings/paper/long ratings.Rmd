@@ -101,6 +101,9 @@ fulldata$bsg = fulldata$bsg * 100
 
 write.csv(fulldata, "fulldata.csv")
 
+
+
+
 ```
 
 
@@ -113,6 +116,53 @@ write.csv(fulldata, "fulldata.csv")
 ## Procedure
 
 ## Data analysis
+```{r kdv analyses, include = TRUE, eval = FALSE, echo = FALSE}
+#heyo, I'm an awful human and ran this without cleaning the data because I need to have this assignemnet done ASAP. So, you know, I should really go back and do that before we mark this as a real analysis.
+
+fulldata = read.csv("fulldata.csv")
+install.packages("nlme")
+library(nlme)
+#intercept only model
+#gls=generalized least squares
+#value=judgment (our DV)
+model1=gls(judgment~1,
+           data=fulldata,
+           method="ML",
+           na.action="na.omit")
+summary(model1)
+#this just gives us the intercept
+#mean is 62.47, SE=0.40, just want as a comparison to the next model
+
+#random intercept based on pt. no, allows them to start in different places
+model2=lme(judgment~1,
+           data=fulldata,
+           method="ML",
+           na.action="na.omit",
+           random=~1|partno)
+summary(model2)
+#does allowing this to vary make a difference? 
+anova(model1, model2)
+#this shows that setting it up by pt. makes a difference. Because of this we need to nest the variables.
+
+#let's add predictors
+model3=lme(judgment~fsg*group,
+           data=fulldata,
+           method="ML",
+           na.action="na.omit",
+           random=~1|partno)
+summary(model3)
+
+
+#what if we add predictors and nest this model further
+model4=lme(judgment~fsg*group,
+           data=fulldata,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno,~1|cue,~1|target))
+summary(model4)
+
+anova(model3, model4)
+```
 
 # Results
 
