@@ -1,0 +1,121 @@
+---
+title             : "The title"
+shorttitle        : "Title"
+
+author: 
+  - name          : "First Author"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Postal address"
+    email         : "my@email.com"
+  - name          : "Ernst-August Doelle"
+    affiliation   : "1,2"
+
+affiliation:
+  - id            : "1"
+    institution   : "Wilhelm-Wundt-University"
+  - id            : "2"
+    institution   : "Konstanz Business School"
+
+author_note: |
+  Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
+
+  Enter author note here.
+
+abstract: |
+  Enter abstract here. Each new line herein must be indented, like this line.
+  
+keywords          : "keywords"
+wordcount         : "X"
+
+#bibliography      : ["r-references.bib"]
+
+figsintext        : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+lineno            : yes
+
+lang              : "english"
+class             : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r load_packages, include = FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+library("papaja")
+library(reshape)
+```
+
+```{r create-data, include = FALSE}
+##read the two data sets and norms
+control = read.csv("control data.csv")
+exp = read.csv("exp data.csv")
+nelson = read.csv("usf norms.csv")
+
+##combine those together
+control.long = melt(control, 
+                    id = "Record")
+control.long[ , c("cue", "target")] = matrix(unlist(strsplit(as.character(control.long$variable), ".", fixed = TRUE)), ncol = 2, byrow = TRUE)
+control.long$group = "control"
+control.long$matched.partno = NA
+control.long$expnorm = NA
+control.long$fsg = NA
+control.long$bsg = NA
+colnames(control.long)[c(1,3)] = c("partno", "judgment")
+
+fulldata = rbind(exp, control.long[ , -2])
+
+fulldata$cue = tolower(fulldata$cue)
+fulldata$target = tolower(fulldata$target)
+nelson$CUE = tolower(nelson$CUE)
+nelson$TARGET = tolower(nelson$TARGET)
+nelson$BSG = as.numeric(as.character(nelson$BSG))
+
+##add nelson data
+for (i in 1:nrow(fulldata)){
+  
+  if (length(nelson$FSG[nelson$CUE == fulldata$cue[i] 
+                        & nelson$TARGET == fulldata$target[i]]) > 0)
+    {
+      fulldata$fsg[i] = nelson$FSG[nelson$CUE == fulldata$cue[i] & nelson$TARGET == fulldata$target[i]]
+  } else {
+      fulldata$fsg[i] = NA
+    }
+  
+  
+  if (length(nelson$BSG[nelson$CUE == fulldata$cue[i] 
+                        & nelson$TARGET == fulldata$target[i]]) > 0)
+    {
+      fulldata$bsg[i] = nelson$BSG[nelson$CUE == fulldata$cue[i] & nelson$TARGET == fulldata$target[i]]
+  } else {
+      fulldata$bsg[i] = NA
+    }
+}
+
+write.csv(fulldata, "fulldata.csv")
+
+```
+
+
+# Methods
+
+## Participants
+
+## Material
+
+## Procedure
+
+## Data analysis
+
+# Results
+
+# Discussion
+
+
+\newpage
+
+# References
+
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
