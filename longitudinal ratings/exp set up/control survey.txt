@@ -1,0 +1,120 @@
+1a. Chowder Puppy 
+ likert table range=5 "1 = 0 - 20" "2 = 21 - 40" "3 = 41 - 60" "4 = 61 - 80" "5 = 81 - 100" title="How many people out of a 100 would list the SECOND word if given the FIRST word?"
+1b. Assist Help 
+ likert table range=5
+1c. Computer Keyboard 
+ likert table range=5
+1d. Pupil Eye 
+ likert table range=5
+1e. Difficult Hard 
+ likert table range=5
+1f. Organize Neat 
+ likert table range=5
+1g. Chowder Clam 
+ likert table range=5
+1h. Body Fat 
+ likert table range=5
+1i. Cloth Material 
+ likert table range=5
+1j. Organize Clean 
+ likert table range=5
+1k. Break Destroy 
+ likert table range=5
+1l. Before Previous 
+ likert table range=5
+1m. Cloth Fabric 
+ likert table range=5
+1n. Before Yesterday 
+ likert table range=5
+1o. Challenge Compete 
+ likert table range=5
+1p. Beginning Start 
+ likert table range=5
+1q. Difficult Test 
+ likert table range=5
+1r. Melody Music 
+ likert table range=5
+1s. Casual Dress 
+ likert table range=5
+1t. Closed Open 
+ likert table range=5
+1u. Bashful Shy 
+ likert table range=5
+1v. Body Arm 
+ likert table range=5
+1w. Car Auto 
+ likert table range=5
+1x. Common Ordinary 
+ likert table range=5
+1y. Before After 
+ likert table range=5
+1z. Cloth Clothes 
+ likert table range=5
+2a. Body Muscle 
+ likert table range=5 "1 = 0 - 20" "2 = 21 - 40" "3 = 41 - 60" "4 = 61 - 80" "5 = 81 - 100" title="How many people out of a 100 would list the SECOND word if given the FIRST word?"
+2b. Pupil Student 
+ likert table range=5
+2c. Car Drive 
+ likert table range=5
+2d. Chowder Soup 
+ likert table range=5
+2e. Melody Song 
+ likert table range=5
+2f. Assist Teacher 
+ likert table range=5
+2g. Dancer Singer 
+ likert table range=5
+2h. Cinema Film 
+ likert table range=5
+2i. Common Uncommon 
+ likert table range=5
+2j. Closed Door 
+ likert table range=5
+2k. Beginning End 
+ likert table range=5
+2l. Break Fix 
+ likert table range=5
+2m. Break Glass 
+ likert table range=5
+2n. Cinema Movie 
+ likert table range=5
+2o. Closed Minded 
+ likert table range=5
+2p. Computer Disc 
+ likert table range=5
+2q. Bashful Dopey 
+ likert table range=5
+2r. Challenge Hard 
+ likert table range=5
+2s. Dancer Music 
+ likert table range=5
+2t. Dancer Ballet 
+ likert table range=5
+2u. Melody Tune 
+ likert table range=5
+2v. Organize Plan 
+ likert table range=5
+2w. Beginning New 
+ likert table range=5
+2x. Bashful Dwarves 
+ likert table range=5
+2y. Casual Formal 
+ likert table range=5
+2z. Challenge Task 
+ likert table range=5
+3a. Assist Aid 
+ likert table range=5 "1 = 0 - 20" "2 = 21 - 40" "3 = 41 - 60" "4 = 61 - 80" "5 = 81 - 100" title="How many people out of a 100 would list the SECOND word if given the FIRST word?"
+3b. Car Boat 
+ likert table range=5
+3c. Computer Program 
+ likert table range=5
+3d. Common Normal 
+ likert table range=5
+3e. Casual Clothes 
+ likert table range=5
+3f. Cinema Theater 
+ likert table range=5
+3g. Pupil Teacher 
+ likert table range=5
+3h. Difficult Easy 
+ likert table range=5
