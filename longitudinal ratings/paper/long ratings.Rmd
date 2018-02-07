@@ -47,7 +47,7 @@ library("papaja")
 library(reshape)
 ```
 
-```{r create-data, include = FALSE}
+```{r create-data, include = FALSE, eval = FALSE, echo = FALSE}
 ##read the two data sets and norms
 control = read.csv("control data.csv")
 exp = read.csv("exp data.csv")
@@ -92,6 +92,12 @@ for (i in 1:nrow(fulldata)){
       fulldata$bsg[i] = NA
     }
 }
+
+##make all data in the 100 scale
+fulldata$expnorm = fulldata$expnorm * 20
+fulldata$judgment = fulldata$judgment * 20
+fulldata$fsg = fulldata$fsg * 100
+fulldata$bsg = fulldata$bsg * 100
 
 write.csv(fulldata, "fulldata.csv")
 
