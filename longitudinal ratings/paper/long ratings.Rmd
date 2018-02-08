@@ -115,7 +115,6 @@ write.csv(fulldata, "fulldata.csv", row.names = F)
 #heyo, I'm an awful human and ran this without cleaning the data because I need to have this assignemnet done ASAP. So, you know, I should really go back and do that before we mark this as a real analysis.
 
 fulldata = read.csv("fulldata.csv")
-install.packages("nlme")
 library(nlme)
 #intercept only model
 #gls=generalized least squares
