@@ -99,8 +99,11 @@ fulldata$judgment = fulldata$judgment * 20
 fulldata$fsg = fulldata$fsg * 100
 fulldata$bsg = fulldata$bsg * 100
 
-write.csv(fulldata, "fulldata.csv")
+write.csv(fulldata, "fulldata.csv", row.names = F)
+```
 
+```{r stuff}
+master = read.csv("fulldata.csv")
 ```
 
 
