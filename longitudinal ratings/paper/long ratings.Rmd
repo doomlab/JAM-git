@@ -236,8 +236,14 @@ model6=lme(judgment~fsg*group,
 summary(model6)
 anova(model5, model6)
 
-
-#So, based on the p-value, we should include cue, but not target in our model (model 5)
+model7=lme(judgment~fsg+group,
+           data=fulldata,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno, ~1|cue))
+summary(model7)
+anova(model5, model7)
+#So, based on the p-value, we should include cue, but not target in our model (model 5), and yes, the interaction between group and fsg is important
 
 ```
 
