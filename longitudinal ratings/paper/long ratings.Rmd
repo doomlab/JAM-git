@@ -244,7 +244,31 @@ model7=lme(judgment~fsg+group,
 summary(model7)
 anova(model5, model7)
 #So, based on the p-value, we should include cue, but not target in our model (model 5), and yes, the interaction between group and fsg is important
+#split data into 3 datasets by group, then analylze judgment~fsg with rando slope
+control.data<-newdata <- fulldata[ which(fulldata$group=='control'), ]
+exp.data<-newdata <- fulldata[ which(fulldata$group=='exp'), ]
+matched.data<-newdata <- fulldata[ which(fulldata$group=='matched'), ]
 
+model5control=lme(judgment~fsg,
+           data=control.data,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno, ~1|cue))
+summary(model5control)
+
+model5exp=lme(judgment~fsg,
+           data=exp.data,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno, ~1|cue))
+summary(model5exp)
+
+model5matched=lme(judgment~fsg,
+           data=matched.data,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno, ~1|cue))
+summary(model5matched)
 ```
 
 # Results
