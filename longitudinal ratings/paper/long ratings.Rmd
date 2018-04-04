@@ -269,6 +269,17 @@ model5matched=lme(judgment~fsg,
            na.action="na.omit",
            random=list(~1|partno, ~1|cue))
 summary(model5matched)
+summary(fulldata$group)
+#need to reorder grouping var
+fulldata$group2 = factor(fulldata$group,  levels = c("exp", "matched", "control"))
+summary(fulldata$group2)
+model5a=lme(judgment~fsg*group2,
+           data=fulldata,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno, ~1|cue))
+summary(model5a)
+
 ```
 
 # Results
