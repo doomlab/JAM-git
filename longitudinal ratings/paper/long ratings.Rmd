@@ -300,7 +300,6 @@ model8matched=lme(judgment~expnorm,
            na.action="na.omit",
            random=list(~1|partno, ~1|cue))
 summary(model8matched)
-
 ```
 
 # Results
