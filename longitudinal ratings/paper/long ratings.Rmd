@@ -249,6 +249,7 @@ control.data<-newdata <- fulldata[ which(fulldata$group=='control'), ]
 exp.data<-newdata <- fulldata[ which(fulldata$group=='exp'), ]
 matched.data<-newdata <- fulldata[ which(fulldata$group=='matched'), ]
 names(fulldata)
+
 model5control=lme(judgment~fsg,
            data=control.data,
            method="ML",
@@ -286,19 +287,37 @@ model8=lme(judgment~expnorm*group,
            data=no.c.data,
            method="ML",
            na.action="na.omit",
-           random=list(~1|partno, ~1|cue))
+           random=list(~1|partno, ~1|cue, ~1|target))
 summary(model8)
+
+model8b=lme(judgment~expnorm*group,
+           data=no.c.data,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno, ~1|cue))
+summary(model8b)
+
+anova(model8, model8b)
+
+model8c=lme(judgment~expnorm+group,
+           data=no.c.data,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno, ~1|cue, ~1|target))
+summary(model8c)
+anova(model8, model8c)
+
 model8exp=lme(judgment~expnorm,
            data=exp.data,
            method="ML",
            na.action="na.omit",
-           random=list(~1|partno, ~1|cue))
+           random=list(~1|partno, ~1|cue, ~1|target))
 summary(model8exp)
 model8matched=lme(judgment~expnorm,
            data=matched.data,
            method="ML",
            na.action="na.omit",
-           random=list(~1|partno, ~1|cue))
+           random=list(~1|partno, ~1|cue, ~1|target))
 summary(model8matched)
 
 ```
