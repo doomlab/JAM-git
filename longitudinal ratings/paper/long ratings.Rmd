@@ -66,6 +66,8 @@ These hypotheses will highlight how expertise (interaction with word pairings an
 control = read.csv("control data.csv")
 exp = read.csv("exp data.csv")
 nelson = read.csv("usf norms.csv")
+swow = read.delim("strength.SWOW-EN.R123.csv")
+##note for readers, you can find the swow and nelson databases in our SPP project folder so we don't have duplicates
 
 ##combine those together
 control.long = melt(control, 
@@ -76,6 +78,7 @@ control.long$matched.partno = NA
 control.long$expnorm = NA
 control.long$fsg = NA
 control.long$bsg = NA
+control.long$swow = NA
 colnames(control.long)[c(1,3)] = c("partno", "judgment")
 
 fulldata = rbind(exp, control.long[ , -2])
@@ -86,25 +89,37 @@ nelson$CUE = tolower(nelson$CUE)
 nelson$TARGET = tolower(nelson$TARGET)
 nelson$BSG = as.numeric(as.character(nelson$BSG))
 
-##add nelson data
+
 for (i in 1:nrow(fulldata)){
-  
+
+  ##add nelson FSG  
   if (length(nelson$FSG[nelson$CUE == fulldata$cue[i] 
                         & nelson$TARGET == fulldata$target[i]]) > 0)
     {
       fulldata$fsg[i] = nelson$FSG[nelson$CUE == fulldata$cue[i] & nelson$TARGET == fulldata$target[i]]
   } else {
       fulldata$fsg[i] = NA
-    }
+  }
   
-  
+  ##add nelson BSG
   if (length(nelson$BSG[nelson$CUE == fulldata$cue[i] 
                         & nelson$TARGET == fulldata$target[i]]) > 0)
     {
       fulldata$bsg[i] = nelson$BSG[nelson$CUE == fulldata$cue[i] & nelson$TARGET == fulldata$target[i]]
   } else {
       fulldata$bsg[i] = NA
-    }
+  }
+  
+  ##add swow 
+  if (length(swow$R123.Strength[swow$cue == fulldata$cue[i] 
+                        & swow$response == fulldata$target[i]]) > 0)
+    {
+      fulldata$swow[i] = swow$R123.Strength[swow$cue == fulldata$cue[i] 
+                        & swow$response == fulldata$target[i]]
+  } else {
+      fulldata$swow[i] = NA
+  }
+  
 }
 
 ##make all data in the 100 scale
@@ -112,6 +127,8 @@ fulldata$expnorm = fulldata$expnorm * 20
 fulldata$judgment = fulldata$judgment * 20
 fulldata$fsg = fulldata$fsg * 100
 fulldata$bsg = fulldata$bsg * 100
+fulldata$swow = fulldata$swow *100
+
 
 write.csv(fulldata, "fulldata.csv", row.names = FALSE)
 ```
