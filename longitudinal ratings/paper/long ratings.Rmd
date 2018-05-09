@@ -274,19 +274,7 @@ model5control=lme(judgment~fsg,
            random=list(~1|partno, ~1|cue))
 summary(model5control)
 
-model5exp=lme(judgment~fsg,
-           data=exp.data,
-           method="ML",
-           na.action="na.omit",
-           random=list(~1|partno, ~1|cue))
-summary(model5exp)
 
-model5matched=lme(judgment~fsg,
-           data=matched.data,
-           method="ML",
-           na.action="na.omit",
-           random=list(~1|partno, ~1|cue))
-summary(model5matched)
 summary(fulldata$group)
 #need to reorder grouping var
 fulldata$group2 = factor(fulldata$group,  levels = c("exp", "matched", "control"))
@@ -337,6 +325,46 @@ model8matched=lme(judgment~expnorm,
            random=list(~1|partno, ~1|cue, ~1|target))
 summary(model8matched)
 
+
+#swow analyses
+#model 9
+model9=lme(judgment~swow*group,
+           data=fulldata,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno,~1|cue,~1|target))
+summary(model9)
+
+
+model10=lme(judgment~swow*group,
+           data=fulldata,
+           method="ML",
+           na.action="na.omit",
+           random=list(~1|partno, ~1|cue))
+summary(model10)
+anova(model9, model10)
+#keep bigger model
+
+#model9control=lme(judgment~swow,
+#           data=control.data,
+#           method="ML",
+#           na.action="na.omit",
+#           random=list(~1|partno,~1|cue,~1|target))
+#summary(model9control)
+#
+#model9exp=lme(judgment~swow,
+#           data=exp.data,
+#           method="ML",
+#           na.action="na.omit",
+#           random=list(~1|partno,~1|cue,~1|target))
+#summary(model9exp)
+#
+#model9match=lme(judgment~swow,
+#           data=matched.data,
+#           method="ML",
+#           na.action="na.omit",
+#           random=list(~1|partno,~1|cue,~1|target))
+#summary(model9match)
 ```
 
 # Results
