@@ -1,0 +1,644 @@
+\documentclass[english,man]{apa6}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+
+% Table formatting
+\usepackage{longtable, booktabs}
+\usepackage{lscape}
+% \usepackage[counterclockwise]{rotating}   % Landscape page setup for large tables
+\usepackage{multirow}		% Table styling
+\usepackage{tabularx}		% Control Column width
+\usepackage[flushleft]{threeparttable}	% Allows for three part tables with a specified notes section
+\usepackage{threeparttablex}            % Lets threeparttable work with longtable
+
+% Create new environments so endfloat can handle them
+% \newenvironment{ltable}
+%   {\begin{landscape}\begin{center}\begin{threeparttable}}
+%   {\end{threeparttable}\end{center}\end{landscape}}
+
+\newenvironment{lltable}
+  {\begin{landscape}\begin{center}\begin{ThreePartTable}}
+  {\end{ThreePartTable}\end{center}\end{landscape}}
+
+  \usepackage{ifthen} % Only add declarations when endfloat package is loaded
+  \ifthenelse{\equal{\string man}{\string man}}{%
+   \DeclareDelayedFloatFlavor{ThreePartTable}{table} % Make endfloat play with longtable
+   % \DeclareDelayedFloatFlavor{ltable}{table} % Make endfloat play with lscape
+   \DeclareDelayedFloatFlavor{lltable}{table} % Make endfloat play with lscape & longtable
+  }{}%
+
+
+
+% The following enables adjusting longtable caption width to table width
+% Solution found at http://golatex.de/longtable-mit-caption-so-breit-wie-die-tabelle-t15767.html
+\makeatletter
+\newcommand\LastLTentrywidth{1em}
+\newlength\longtablewidth
+\setlength{\longtablewidth}{1in}
+\newcommand\getlongtablewidth{%
+ \begingroup
+  \ifcsname LT@\roman{LT@tables}\endcsname
+  \global\longtablewidth=0pt
+  \renewcommand\LT@entry[2]{\global\advance\longtablewidth by ##2\relax\gdef\LastLTentrywidth{##2}}%
+  \@nameuse{LT@\roman{LT@tables}}%
+  \fi
+\endgroup}
+
+
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            pdfauthor={},
+            pdftitle={In a JAM: How Judgments of Associative Memory are Aided by Expertise},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=black,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+\setlength{\parindent}{0pt}
+%\setlength{\parskip}{0pt plus 0pt minus 0pt}
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+
+\ifxetex
+  \usepackage{polyglossia}
+  \setmainlanguage{}
+\else
+  \usepackage[english]{babel}
+\fi
+
+% Manuscript styling
+\captionsetup{font=singlespacing,justification=justified}
+\usepackage{csquotes}
+\usepackage{upgreek}
+
+ % Line numbering
+  \usepackage{lineno}
+  \linenumbers
+
+
+\usepackage{tikz} % Variable definition to generate author note
+
+% fix for \tightlist problem in pandoc 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Essential manuscript parts
+  \title{In a JAM: How Judgments of Associative Memory are Aided by Expertise}
+
+  \shorttitle{FREE ASSOCIATION EXPERTISE}
+
+
+  \author{Erin M. Buchanan\textsuperscript{1}~\& K. D. Valentine\textsuperscript{2}}
+
+  % \def\affdep{{"", ""}}%
+  % \def\affcity{{"", ""}}%
+
+  \affiliation{
+    \vspace{0.5cm}
+          \textsuperscript{1} Missouri State University\\
+          \textsuperscript{2} University of Missouri  }
+
+  \authornote{
+    Erin M. Buchanan is an Associate Professor of Psychology at Missouri
+    State University. K. D. Valentine is a Ph.D.~candidate in the
+    Quantitative Psychology program at the University of Missouri.
+    
+    Correspondence concerning this article should be addressed to Erin M.
+    Buchanan, 901 S. National Ave, Springfield, MO, 65897. E-mail:
+    \href{mailto:erinbuchanan@missouristate.edu}{\nolinkurl{erinbuchanan@missouristate.edu}}
+  }
+
+
+  \abstract{({\textbf{???}}) famous inquiry, ``Are there more words with the letter
+K in the first position or the third?'' highlights our difficulties with
+making judgments from memory. People find it very easy to think of words
+that start with K (\emph{kite, knife}), but have a harder time with K in
+the third position (\emph{make, bake}), which is the correct answer.
+While this frequency decision sounds innocuous, research in judgments of
+learning (JOLs) portrays we have a serious need to understand how
+underlying sorting and judgment from memory is accomplished. Koriat and
+Bjork ({\textbf{???}}, {\textbf{???}}) have shown that participant's
+ratings of test performance are nearly unrelated to actual test
+performance. Here, participants created their own set of free
+association norms over several weeks time and were then asked to judge
+the associative strength of their word pairs. These judgments were then
+compared to real associative strengths ({\textbf{???}}), a control
+group, and a matched group. Participants who judged their own pairs were
+better than all other groups implying that judgments based on
+individualized generated memories are better than judging the collective
+norm, but are albeit still far from perfect.}
+  \keywords{judgments, memory, expertise \\
+
+    
+  }
+
+
+
+
+
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\theoremstyle{definition}
+\newtheorem{example}{Example}
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercise}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
+\begin{document}
+
+\maketitle
+
+\setcounter{secnumdepth}{0}
+
+
+
+People often are asked to judge the frequency or probability of events.
+If you are waiting on a friend who is late to lunch, you have to decide
+if (s)he is always late (high frequency) or never late (low frequency),
+which will determine how long before you start to worry about them. Such
+judgments are grossly inflated in many situations, and student learning
+is one of the pertinent applications of judgment research. For example,
+people estimate their competence at levels higher than those supported
+by their actual levels of skill ({\textbf{???}}). Often, judgments of
+learning (JOLs) are also inflated leading to inappropriate study
+strategies ({\textbf{???}}). Individuals who self-monitor study habits
+are found to be highly confident and poor at calibration in learning
+({\textbf{???}}). Thus, development of methods for remediation of
+inflated predictions is important for both theoretical and practical
+reasons ({\textbf{???}}, {\textbf{???}}).
+
+Word associations are a convenient domain in which to investigate
+inflated predictions and their solutions ({\textbf{???}},
+{\textbf{???}}). Word associations are usually measured by the method of
+free association ({\textbf{???}}). In this task, participants are asked
+to give the first word that comes to mind (target) when presented with a
+stimulus word (cue). Averaged over many participants, the forward
+strength (FSG) of the association between words \emph{A} and \emph{B} is
+indexed by the conditional probability that word \emph{B} is given in
+response to word \emph{A}. Large databases are available that list the
+associative strengths of many thousands of cue-response pairs
+({\textbf{???}}). For example, the probability of
+\emph{computer-program} appearing together is about 12\% or 12 people
+out of a 100.
+
+Studies of the inflation of predictions within the domain of word
+associations have shown that people typically over-estimate word
+relations, especially for weakly associated pairs. This tendency toward
+high ratings is most difficult to change ({\textbf{???}},
+{\textbf{???}}, {\textbf{???}}). For example, the inflation persists
+even when people are shown a list of common associates for a given cue
+({\textbf{???}}), when people are given a cue and asked to think about
+alternatives ({\textbf{???}}), and when people overtly generate their
+own list of associates ({\textbf{???}}, {\textbf{???}}); in all three
+cases judgments remained poorly assessed.
+
+Because of the robustness of the inflation effect, finding a substantial
+reduction is important. Three different training methods have proven
+effective in reducing the inflation effect, such as mnemonic and theory
+based debiasing. However, these training methods have only influenced
+the overall over-estimation bias factor, but not our sensitivity to the
+difference between low and high frequency events ({\textbf{???}}). Bias
+is the general tendency to inflate judgments upwards (we think
+everything is strongly related), while sensitivity is our ability to
+accurately tune our judgments ({\textbf{???}}). The current experiment
+tested how using individually normed frequencies affected our ability to
+make judgments from memory. Previous research has shown that
+participants cannot estimate what others would say when given a
+particular cue word ({\textbf{???}}, {\textbf{???}}, {\textbf{???}},
+{\textbf{???}}). In a traditional judgment of associative memory (JAM)
+task, participants are asked to estimate how many college students out
+of a 100 would list the second target word when presented with a first
+cue word ({\textbf{???}}). Here, we had participants create their own
+frequency norms, and then they were asked how often they put words
+together. If these frequency memories are built over time (akin to
+distributed practice study skills), we may see a boost in judgment
+capacity over comparison groups. The following hypotheses will be
+tested:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Hypothesis 1}: Word frequency will match previous database
+  frequency on an individual and overall participant level. This
+  hypothesis will be examined with correlations.
+\item
+  \emph{Hypothesis 2}: (A) Free association database norms will be
+  predictive of all group's judgments. Simple linear regressions will be
+  used to calculate the slope of judgments when compared to free
+  association norms. These values will be tested against non-predictive
+  slopes (i.e. \emph{b} = 0) with single sample \emph{t}-tests. (B)
+  Furthermore, the individualized experimental group norms will be
+  positively related to their judgments of associative memory, using the
+  same procedure to test their slope values above zero.
+\item
+  \emph{Hypothesis 3}: Judgment ability will vary across groups, so that
+  the experimental group should show better judgment ability when
+  compared to their own norms over control, matched and experimental
+  groups compared to free association norms. This hypothesis will be
+  examined on slope values with a mixed factorial ANOVA and dependent
+  t-test.
+\end{itemize}
+
+These hypotheses will highlight how expertise (interaction with word
+pairings and their frequency) affects judgment processing on the memory
+system. In a distributed practice study, one would expect judgments of
+learning to be high because participants know they have practiced items
+repeatedly, which would increase their frequency and likelihood of
+remembrance. Here, judgments of memory should also be high when items
+have been repeated over time, thus, strengthening their connection in
+memory.
+
+\section{Method}\label{method}
+
+\subsection{Participants}\label{participants}
+
+Participants were recruited through the Department of Psychology's
+undergraduate subject pool. Students were required to participate in
+research for their general psychology course, and some upper level
+courses allowed research participation for extra credit. The research
+project was displayed on the SONA system, which is online
+participant-credit management software. Participants choose research
+projects to complete based on availability and interest in the study's
+posted abstract. The entire experiment was completed online, and each
+section took approximately 5 to 15 minutes. In the experimental group,
+fifty-five participants started the experiment, where \emph{n} = 41
+completed all experimental sessions. For the non-finishing group
+(\emph{n} = 14), the average number of sessions was \emph{M} = 2.14
+(\emph{SD} = 1.17) with a range of 1 to 4 rating sessions. The
+comparison groups included fifty-two participants for the control group
+and forty-one participants for the matched group.
+
+\subsection{Materials}\label{materials}
+
+Stimuli were selected from the free association word norms by
+({\textbf{???}}). The database contains different word-pair
+combinations, along with the probabilities of those pairings. For
+example, with the pair \emph{steak-sirloin}, \emph{steak} is the cue
+word that is paired with the target word, \emph{sirloin}. Each cue word
+(the first word) has several different target words (\emph{steak-cow},
+\emph{steak-sauce}). Cue words were selected with varying number of
+target combinations, specifically, ten cue words with small cue set
+sizes and ten cues with large cue set sizes. Cue set size indicates the
+number of other pairs in the database; for example, \emph{car} has 25
+cue-target combinations in the ({\textbf{???}}) database, while
+\emph{pupil} only has four cue-target combinations. The ten cue words
+with a smaller cue set size (\emph{M} = 4.10, \emph{SD} = 0.63, range =
+3-5) had an average forward strength (FSG) of \emph{M} = .23 (\emph{SD}
+= .30) and backward strength (BSG) of \emph{M} = .03 (\emph{SD} = .09).
+The larger cue set size words (\emph{M} = 24.96, \emph{SD} = 4.35, range
+= 20-33) had a FSG of \emph{M} = .03 (\emph{SD} = .03) and a BSG of
+\emph{M} = .05 (\emph{SD} = .11). Target word selection is described
+below. A complete list of stimuli can be found at OSF link.
+
+\subsection{Procedure}\label{procedure}
+
+\subsubsection{Experimental Group}\label{experimental-group}
+
+\paragraph{Norming Phase}\label{norming-phase}
+
+This group of participants was given the chance to compare their own,
+actual pairing probabilities instead of others' likely judgments. In the
+norming stage of the experiment, participants were given instructions on
+a free association task. The instructions described free association as
+the \enquote{first word that pops into your mind when you hear a cue
+word}. For example, many people talk about owning a cat and a dog, but
+we may also mention that it's raining cats and dogs outside. These
+examples help portray free association as language use and not just
+language meaning, so that participants do not simply write only fur,
+tails, and whiskers when asked about cats. After these instructions,
+participants were given the twenty cue words with four blanks each. For
+each cue word, they wrote the first four target words that come to mind,
+which was intended to create some variation in target words during the
+first stage. After they completed all the cue words, their answers were
+stored.
+
+After a minimum of two days, participants were allowed to take the
+survey again. Participants were sent email reminders when they were
+allowed to complete the next section of the study. Each participant took
+the survey five times, and cue words were randomized with each
+presentation. These trials were averaged and probabilities were created
+for each cue-target pairing, similar to the ({\textbf{???}}) database.
+For example, over the course of five trials, participants may have
+listed many words for the cue \emph{computer}, such as \emph{mouse,
+screen, game, program, keyboard, data, fast}, etc. Each of those
+pairings will have a probability of occurring for that participant
+(i.e., they may have listed \emph{screen} on all 5 surveys / 5 possible
+= 100\%). From these pairings, 50 cue-target combinations were selected:
+ten word-target pairs from each possible probability (20\%, 40\%, 60\%,
+80\%, and 100\%).
+
+\paragraph{Judgment Phase}\label{judgment-phase}
+
+Participants were asked to estimate the probability of their combination
+of each cue-target pair. For instance, a participant might see the
+following: \enquote{When asked about computer, you listed the word
+program. What percent of the time did you put computer and program
+together?} On this page, they were shown a rating scale with five
+options: 20\%, 40\%, 60\%, 80\%, and 100\%. They clicked a radio button
+to select their option. After they finished the final survey, a
+debriefing of the project was shown. The full dataset of words and
+judgments from both phases is paired with an \emph{R} markdown file for
+interested researchers at OSF link.
+
+\subsubsection{Control Group}\label{control-group}
+
+Results from a separate control group were compared against the
+experimental participant judgment scores. Since each experimental
+participant's final word pairs were different, a group of cue-target
+pairings was selected from the ({\textbf{???}}) database to match the
+experimental groups. The same twenty cues were used, and target words
+were mixed so that there was an equal number of low, medium, and high
+pairings. Three cue-target pairs were chosen for each original cue of
+the experimental norming phase, and therefore, 60 cue-target pairs were
+presented to participants. Several cues were repeated to create 60
+word-pairs, to match the repetition in the experimental group. The
+average FSG was \emph{M} = .19 (\emph{SD} = .25) and the BSG was
+\emph{M} = .08 (\emph{SD} = .15).
+
+The control group was given the same instructions about a free
+association task, along with examples. Next, the rating task was
+explained as follows: \enquote{How many people out of a 100 would give
+the target (second) word when asked the cue (first) word?} Participants
+estimated the probability of word pair occurrence using the same
+20\%-40\%-60\%-80\%-100\% scale as the experimental group.
+
+\subsubsection{Control Matched Group}\label{control-matched-group}
+
+Lastly, a separate group of participants were used as comparison to the
+experimental group. These participants were randomly paired with an
+experimental participant. They were given the control group instructions
+about free association and the same instructions for the rating task.
+However, instead of judging randomly selected word-pairs, they were
+shown experimental participant normed word-pairs. This group will be
+used to examine the nature of stimuli on judgments, showing that
+participant judgments improved because of their interaction with words
+in the experimental group.
+
+\section{Results}\label{results}
+
+Descriptive statistics (Hypothesis 1). The data were tabulated in
+several different ways, as shown in Table 1. First, the average number
+of target words per person and mentions was calculated. This value is
+the average number of cue-target combinations that were mentioned once,
+twice, etc. calculated within subjects. In total, across all five
+testing times, participants mentioned approximately 206 different target
+words, which were mostly only mentioned once. The average number of
+targets listed by stimuli and mentions show that the average number of
+words listed for each of cues was 423, again with the majority of
+targets mentioned once. Interestingly, a small bump in average number of
+words was found for five mentions. A large majority of once mentioned
+targets portrays that participants are not simply listing the same four
+words on each cue and trial, but instead are listing large number of
+unique words for each cue word. However, there are clearly targets that
+have strong associations or you might expect the average number of words
+per mention to continue to decrease across mentions. Second, 8,457 total
+cue-target pairs were created across all participants, cues, and
+experimental sessions. The percent of targets mentioned once was the
+largest with a small increase for the number of targets mentioned five
+times. 7,635 of these target words were unique within participants.
+Target words were allowed to overlap across participants but not within
+participants for calculation; for example, a participant might have
+written achieve to both challenge and difficult. The average number of
+unique targets per participant was M = 186.22 (SD = 37.66). 3,252 unique
+targets were found by stimuli applying the same criteria as participants
+(no-repeats within stimuli, but allowed across stimuli). The average
+number of unique targets by stimuli was M = 162.60 (SD = 29.49). When
+all targets were considered regardless of stimuli or participant, 2,277
+unique targets were listed. These pairs were then compared to the Nelson
+et al. (2004) database where 29.40\% percent of participant pairs had
+non-zero normed values. When unique cue-target pairs are considered
+(i.e.~no overlaps between participants), approximately 15.50\% of unique
+pairs had non-zero values in the Nelson norms. The correlation between
+participant normed values (20\%, 40\%, 60\%, 80\%, 100\%) and forward
+strength was r = .44, p\textless{}.001. Further, if we calculate the
+number of cue-target pairs that exist for the stimuli set, 75.96\% of
+the non-zero possible pairs were listed across participants implying
+that most targets were listed at least once. The correlation between the
+percent of participants who list a pair at least once and forward
+strength was r = .68, p\textless{}.001. This percent is the probability
+of each cue-target pair, as if they had been collected in the normal
+free association style, with one target per cue (collective forward
+strength). Lastly, the correlation between the percent of all mentions
+of the target (i.e.~number of mentions / number of times the target
+could have been mentioned) was r = .79, p\textless{}.001. These
+statistics suggest that while many unique words were obtained outside of
+the Nelson norms, there was a great deal of expected overlap within the
+current data and previously normed words; thus supporting Hypothesis 1.
+Dependent variable calculation. In this experiment, the dependent
+variable was considered the slope value calculated when using a simple
+linear regression to predict participant judgments. First, each
+participant's judgment scores were matched to the Nelson et al. (2004)
+free association norm data. As described above, some pairings created by
+the experimental groups were not present in the Nelson et al. norms, so
+these data were discarded when calculating the slope values for that
+group. Judgment and free association data was scaled to a 100 point
+system, so that all B values are comparable across groups and to
+previous research (Maki, 2007a, 2007b). Finally, the free association
+norms were used as the independent variable to predict participant
+judgment scores, creating a measure of sensitivity to the difference
+between lowly and highly related word pairs. This procedure created
+three norm matched variables call FA norms below in tables: (1) control
+group ratings, (2) experimental group ratings, and (3) matched group
+ratings. Second, experimental group participant norms were matched to
+both the experimental group and matched group ratings on judgment pairs.
+Their norms were used to predict ratings in a simple linear regression,
+again scaled to 100 points for comparison. This procedure created two
+sets of participant normed sensitivity slopes: (1) experimental and (2)
+matched. For all analyses described below, control groups were
+considered a between subject's variable for comparison to matched and
+experimental groups because both the participants and stimuli were
+different. The experimental and matched groups were considered repeated
+measures variables because the stimuli and norms used to create the
+dependent variable were exactly the same (i.e.~the matched group was
+yoked). Therefore, a main difference between experimental and matched
+groups was the experience with creating the word set, which was the
+primary goal of this analysis. Further detail about the motivation of
+this analysis procedure is listed with the individual hypotheses. All
+assumptions were analyzed for individual analyses, including outliers,
+and no problems were found. Hypothesis 2. Hypothesis 2 examined if
+participants were sensitive to the strength of relation between word
+pairs and could discern the difference between lowly and highly related
+word pairs. Table 2 shows the average slope values for each group-normed
+association combination. To test Hypothesis 2, single-sample t-tests
+were used to compare group slope values against zero. If slope values
+were significantly greater than zero, this finding would indicate that
+groups were able to complete the judgment task and predict the
+relationship between word pairs better than chance. Previous studies
+have shown slope values ranging from 0.2 to 0.5 (Maki, 2007a, 2007b,
+Nelson et al., 2005) when participant scores are compared to the Nelson
+et al. (2004) free association ratings. As indicated in Table 2, all
+single sample values were significantly greater than zero at p
+\textless{} .001. An examination of the mean and Cohen's d values show
+that the slopes for control, matched, and experimental-free association
+normed groups were large effect sizes matching previous literature
+(i.e.~slopes averaging around 0.20). As predicted in Hypothesis 2B, the
+experimental-participant norm group showed a larger mean, with a very
+large effect size when compared to a non-sensitive slope of zero.
+Therefore, Hypothesis 2 was supported, showing that all groups were able
+to judge word pairs better than random guessing. Interestingly, matched
+groups compared to participant norms were also significantly greater
+than zero at p \textless{}.001. This finding seems to indicate that
+matched participants were able to judge the strength of pairs created by
+others, at about the same level as when compared to free association
+norms and control groups (however, the difference was tested below).
+Hypothesis 3. Next, this hypothesis examined the relationship between
+group slope values to show that even though norms are predictive of
+participant judgments, the experimental group ratings of their own norms
+are higher than matched or control group norms. First, control groups
+were compared to all other groups using independent t-tests, followed by
+experimental and matched groups analyses using repeated measures ANOVA.
+Control groups were tested with similar but different word pairs on
+their associative judgments, while experimental and matched pair groups
+were tested on the same word pairs. Therefore, even though participants
+were different in the experimental and matched conditions, their data
+was tied to the same stimuli and considered repeated measures data.
+Furthermore, the comparison between free association and participant
+normed data was repeated on the same data, making a 2 (condition) X 2
+(norm comparison) repeated measures ANOVA analyses appropriate. These
+analyses will indicate if the experimental group's experience with the
+word set allowed them to more accurately judge word pairs over a matched
+person's judgment of the same word pairs. This interaction with the word
+set should also improve their judgments over free association norms
+predicting their judgment scores. Control group slopes were not expected
+to differ from matched groups or experimental groups when compared to
+free association norms. This finding was expected because in these
+groups, participants are judging the strength of word pairs in the same
+manner as the control group (matched groups procedure) or being compared
+to the population average free association (experimental groups), which
+mimics the control group task. Table 3 portrays the t-test differences
+between groups, in which these findings are shown. Control groups were
+actually significantly greater than matched groups when compared to the
+participant norms, indicating that when participants are asked to rate
+how many people out of a 100 would list the second word to the first,
+participants are better when compared to the normed average than rating
+individual made averages. Lastly, control group slopes are much lower
+than experimental groups when compared to participant norms, as expected
+since experimental groups are judging their own pairs instead of an
+averaged probability with the free association norms. A 2X2 repeated
+measures ANOVA showed groups differences overall, F(1, 40) = 25.65, p
+\textless{} .001, ɳ2 = .39, as well as the comparison between
+participant norms and free association norms, F(1, 40) = 24.58, p
+\textless{} .001, ɳ2 = .38. However, the interaction between norm
+comparison and group was significant, F(1, 40) = 41.09, p \textless{}
+.001, ɳ2 = .51, so only this effect will be analyzed with dependent
+t-tests for post hoc. These t-test values are shown in Table 3.
+Experimental group slopes were significantly larger than matched group
+slopes when they are compared against the experimental group norms,
+which show that the creation of individualized norms allows participants
+to judge relationships better than judging other participant word pairs.
+Further, these experimental group participant norms are higher than the
+free association counterpart for both matched groups and experimental
+groups. Therefore, we can attribute the improved experimental group
+performance to previous interaction with word-pairs instead of just
+\enquote{easy} stimuli, otherwise these groups would all show the same
+slope values (i.e.~groups would all show a small sensitivity to strength
+as seen in the control group analysis). Lastly, matched group
+comparisons were not significantly different, further supporting the
+experimental group's interaction hypothesis. This finding is important
+because a stimuli specific finding would show that matched group
+participants norm slopes should be greater than the free association
+norm slopes (i.e.~the words created by the experimental group are just
+somehow obvious at the differences in low and high strength pairs).
+
+\section{Discussion}\label{discussion}
+
+In viewing these findings, it appears that participants can judge the
+associative strength between word-pairs, and quite well when given their
+own associative norms to judge. The experimental group was better at
+judging low and high frequency relationships when compared to a matched
+group of participants and a control group of participants. The
+interaction with the word-pairs over repeated trials improved
+performance for judgments, indicating that expertise has a positive
+effect on judgment performance. This result is not too unexpected as
+much research shows that experts are better at working memory tasks
+within their expertise (Chase \& Simon, 1973; Ericsson \& Delaney,
+1998), as well as better suited to work within long term memory
+(Ericsson \& Delaney, 1999). However, previous research on JAM showed
+that participants were not able to improve their performance when given
+practice and feedback with judgments (Maki, 2007b; Koriat \& Bjork,
+2006), which is also a large component of expertise. Potentially, the
+difficulty in judgments could be embedded within the experimental
+design. Participants rate what a collection of 100 college students have
+said for a cue word, which is how the original free association norms
+were collected. In theory, forward strength probabilities are the
+collective likelihood of obtaining a target word when given a cue word
+(Nelson, McEvoy, \& Dennis, 2000). Why should we expect participants to
+be able to guess at other's free association when this study showed that
+many unique words were created in the norming process? Two reasons: (1)
+simply put, people estimate probabilities of events all the time, and
+(2) the current study showed that much of these collective norms were
+reproduced across the dataset. The popular game show Family Feud had
+contestants guess the most likely answers to different cued categories
+and would have been very boring indeed if people could not estimate a
+common answer to a cue. During normal day we estimate all sorts of
+events: how long will it take to get to work, did I turn off the stove
+(how likely was I to remember to turn it off?), how long should I wait
+for a friend for lunch, have I studied enough for a test, etc. All of
+these functions require an estimate based on previous knowledge of
+probabilities of events.\\
+The daily practice of estimation does not seem to make us any better at
+the actual estimation. Koriat (2008) and Bjork's (2005, 2006) research
+on metacognitive control implies that participants can provide better
+estimations of how well they have learned something (and subsequent
+performance on an exam) but only with increased awareness of the
+pitfalls of foresight bias. This work has shown that participants are
+better at judging their own normed probabilities, but even these
+judgments are not perfect. A very sensitive judgment slope would be
+close to a B of one. Here, the average slope for the experimental group
+when compared to their own norms was B = .54, and ranged from B = -.18
+to B = .80 (an average similar to Nelson et al.'s (2005) studies on
+judgments). Therefore, while it is clear that judging one's own memories
+improves estimation, judgments are still less sensitive to the actual
+frequency of events. We can easily tell students to \enquote{just keep
+studying} to alleviate the problem of overestimation of learning and
+performance, other judgment estimations may not be so easy to fix.
+Expanded studies may wish to investigate the role of the stimuli
+(e.g.~word frequency) on judgments, which may show that our interaction
+with words and their relations has a mitigating effect on our
+estimations of frequency.
+
+\newpage
+
+\section{References}\label{references}
+
+\setlength{\parindent}{-0.5in} \setlength{\leftskip}{0.5in}
+
+
+
+
+
+
+\end{document}
