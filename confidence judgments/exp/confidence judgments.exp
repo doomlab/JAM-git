@@ -1,0 +1,80 @@
+<include>
+/ file = "instructions.exp"
+/ file = "trials.exp"
+/ file = "text.exp"
+</include>
+
+<data>
+/ columns = [date time subject trialcode trialnum latency response]
+/ format = tab
+</data>
+
+<defaults>
+/ font = ("Verdana", -13, 400, 0, 34)
+/ screencolor = (220,220,220)
+/ txcolor=(0,0,0)
+/ pretrialpause = 500
+/ posttrialpause = 500
+/ endlock = true
+</defaults>
+
+<instruct>
+/ font = ("Verdana", -13, 400, 0, 34)
+/ lastlabel = "Press enter to continue ..."
+/ nextkey = (28)
+/ nextlabel ="Press enter for next page"
+/ prevkey = (14)
+/ prevlabel = "Press Backspace for Previous page"
+/ wait = 1000
+/ windowsize = (640,400)
+</instruct>
+
+<block freeassoc>
+/ preinstructions = (first, second)
+/ trials = [1-3 = random(fa1, fa2, fa3)]
+/ postinstructions = (wait)
+</block>
+
+<block pracrating>
+/ preinstructions = (third)
+/ trials = [1-8 = random(prac1, prac2, prac3, prac4, prac5, prac6, prac7, prac8)]
+/ postinstructions = (fourth)
+</block>
+
+<block realrating>
+/ trials = [1 = sequence(real33, real35, real79, real18, confidence,
+real24, real54, real48, real6, confidence,
+real7, real68, real38, real58, confidence,
+real86, real17, real71, real66, confidence,
+real19, real67, real32, real43, confidence,
+real93, real15, real16, real61, confidence,
+real44, real88, real69, real34, confidence,
+real13, real56, real80, real36, confidence,
+real62, real75, real39, real26, confidence,
+real37, real90, real72, real30, confidence,
+real77, real59, real73, real89, confidence,
+real82, real94, real64, real20, confidence,
+real5, real40, real22, real25, confidence,
+real9, real53, real60, real92, confidence,
+real91, real8, real4, real49, confidence,
+real31, real55, real14, real42, confidence,
+real50, real12, real11, real65, confidence,
+real95, real52, real78, real81, confidence,
+real76, real45, real29, real83, confidence,
+real51, real74, real1, real63, confidence,
+real41, real57, real70, real10, confidence,
+real28, real27, real84, real87, confidence,
+real2, real3, real21, real23, confidence,
+real96, real46, real47, real85, confidence)]
+/ postinstructions = (fifth)
+</block>
+
+<block followup>
+/ trials = [1-2 = random(followup1, followup2)]
+/ postinstructions = (sixth)
+</block>
+
+<expt>
+/ blocks = [1= freeassoc; 2= pracrating; 3=realrating; 4=followup;]
+</expt>
+

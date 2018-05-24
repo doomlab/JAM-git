@@ -1,0 +1,1010 @@
+<text confidence>
+/ erase = true(220,220,220)
+/ txbgcolor =(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("How confident are you that you were able to correctly guess the last question?")
+/ numitems = 1
+/ position = (50,30)
+</text>
+
+<text assoc>
+/ erase = true(220,220,220)
+/ txbgcolor =(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("How many of 100 students do you think would have given the SECOND word?")
+/ numitems = 1
+/ position = (50,30)
+</text>
+
+<text freeassociate>
+/ erase = true(220,220,220)
+/ txbgcolor =(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("Please list the first word that comes to your mind.")
+/ numitems = 1
+/ position = (50,30)
+</text>
+
+<text STEAK>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("STEAK         SIRLOIN")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SISTER>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SISTER         BROTHER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text WET>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("WET         SLIPPERY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text HORSE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("HORSE         SADDLE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text HELP>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("HELP         ASSIST")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text CORN>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("CORN         COB")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text HATE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("HATE         DESPISE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text CHEDDAR>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("CHEDDAR         CHEESE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FAWN>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FAWN         DEER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text NUT>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("NUT         CASHEW")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SESSION>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SESSION         THERAPY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text HIGH>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("HIGH         LOW")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text PEPPER>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("PEPPER         SALT")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text MALE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("MALE         FEMALE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text MONEY>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("MONEY         BANK")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text TISSUE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("TISSUE         ORGAN")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text MARROW>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("MARROW         BONE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SPORT>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SPORT         TENNIS")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text DEATH>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("DEATH         FUNERAL")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SERPENT>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SERPENT         SNAKE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FINGERNAIL>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FINGERNAIL         TOENAIL")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text CRACKLE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("CRACKLE         POP")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text TEN>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("TEN         NINE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text REQUEST>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("REQUEST         DEMAND")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text BUYER>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("BUYER         SELLER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text VACUUM>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("VACUUM         CARPET")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text NORTH>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("NORTH         SOUTH")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text CAN>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("CAN         OPENER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text GO>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("GO         STOP")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text WORLD>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("WORLD         GLOBE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text PLANET>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("PLANET         EARTH")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text STEPS>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("STEPS         STAIRS")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text GUEST>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("GUEST         COMPANY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text CLEAN>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("CLEAN         WHITE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text LAUGH>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("LAUGH         JOKE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text TRIBE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("TRIBE         INDIAN")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text NEGATIVE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("NEGATIVE         POSITIVE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FULL>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FULL         EMPTY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text KICK>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("KICK         FOOTBALL")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FLOWER>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FLOWER         BLOOM")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text DINNER>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("DINNER         SUPPER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text ASTRONAUT>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("ASTRONAUT         SPACE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text TOSS>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("TOSS         THROW")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SWAMP>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SWAMP         MARSH")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FAIRYTALE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FAIRYTALE         STORY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text NAIL>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("NAIL         HAMMER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text BLEACH>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("BLEACH         CLOROX")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text WAG>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("WAG         TAIL")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SLOW>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SLOW         FAST")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text WOOD>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("WOOD         SPLINTER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text AIR>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("AIR         SKY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text DIRECTION>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("DIRECTION         COMPASS")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text VARY>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("VARY         DIFFER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text GRANDPA>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("GRANDPA         GRANDMA")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text RAGE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("RAGE         ANGER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text REJECT>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("REJECT         DENY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text BRACES>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("BRACES         TEETH")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text DAD>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("DAD         MOM")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text LIKE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("LIKE         ENJOY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text MATH>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("MATH         ALGEBRA")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SNAIL>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SNAIL         ESCARGOT")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text BABY>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("BABY         DIAPER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text WOMAN>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("WOMAN         MAN")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text ADD>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("ADD         SUBTRACT")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text ROBIN>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("ROBIN         BIRD")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FUEL>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FUEL         GAS")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SPANK>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SPANK         DISCIPLINE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text RAIN>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("RAIN         SNOW")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text GOOD>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("GOOD         BAD")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SCREAM>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SCREAM         YELL")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text WORK>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("WORK         LABOR")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text ETERNITY>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("ETERNITY         FOREVER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text CELL>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("CELL         BLOOD")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text BOAT>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("BOAT         SHIP")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SCUBA>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SCUBA         DIVE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text PET>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("PET         ANIMAL")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text HERE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("HERE         THERE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text STEAL>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("STEAL         ROB")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text BULLET>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("BULLET         GUN")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text VALUE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("VALUE         COST")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FRONT>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FRONT         BACK")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text QUESTION>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("QUESTION         ANSWER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SHORTCAKE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SHORTCAKE         STRAWBERRY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FORGET>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FORGET         FORGIVE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text DOOR>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("DOOR         KNOB")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text GUARD>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("GUARD         NATIONAL")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SOAP>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SOAP         SUDS")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text JET>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("JET         PLANE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FATHER>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FATHER         MOTHER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text CREAM>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("CREAM         COFFEE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text COMPANION>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("COMPANION         FRIEND")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text DECOMPOSE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("DECOMPOSE         ROT")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SHARK>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SHARK         JAWS")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text RELAX>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("RELAX         STRESS")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text BOY>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("BOY         GIRL")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SMEAR>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SMEAR         SPREAD")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text FLESH>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("FLESH         SKIN")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SHERIFF>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SHERIFF         DEPUTY")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text DOLPHIN>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("DOLPHIN         FLIPPER")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text UNCLE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("UNCLE         AUNT")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text CUB>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("CUB         BEAR")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text HURT>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("HURT         PAIN")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text SNEAKER>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("SNEAKER         SHOE")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text INSIGHT>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("INSIGHT         FORESIGHT")
+/ numitems = 1
+/ position = (50,50)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text LOST>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("LOST")
+/ numitems = 1
+/ position = (50,40)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text OLD>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("OLD")
+/ numitems = 1
+/ position = (50,40)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text ARTICLE>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("ARTICLE")
+/ numitems = 1
+/ position = (50,40)
+/ txbgcolor = (220,220,220)
+</text>
+
+<text question1>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("In a free association test, participants such as myself see a list of words. We would be expected to: (a) highlight those words we think are pleasant. (b) put a check mark by each word that we recognize. (c) write down the first word that comes to mind for each word in the list. (d) try to remember each word for a future memory test.")
+/ numitems = 1
+/ position = (50,30)
+/ txbgcolor = (220,220,220)
+/ size = (600,100)
+</text>
+
+<text question2>
+/ erase = true(220,220,220)
+/ font = ("Verdana", -18, 400, 0, 34)
+/ items = ("If given the pair QUACK-DUCK in the experiment, I was supposed to guess the number of people who would: (a) give DUCK in response to QUACK (b) give QUACK in response to DUCK (c) give FAKE in response to QUACK (d) give HUNT in response to DUCK")
+/ numitems = 1
+/ position = (50,30)
+/ size = (600,100)
+/ txbgcolor = (220,220,220)
+</text>
+
