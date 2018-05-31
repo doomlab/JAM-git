@@ -1,0 +1,103 @@
+---
+title             : "The title"
+shorttitle        : "Title"
+
+author: 
+  - name          : "First Author"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Postal address"
+    email         : "my@email.com"
+  - name          : "Ernst-August Doelle"
+    affiliation   : "1,2"
+
+affiliation:
+  - id            : "1"
+    institution   : "Wilhelm-Wundt-University"
+  - id            : "2"
+    institution   : "Konstanz Business School"
+
+author_note: |
+  Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
+
+  Enter author note here.
+
+abstract: |
+  Enter abstract here. Each new line herein must be indented, like this line.
+  
+keywords          : "keywords"
+wordcount         : "X"
+
+bibliography      : ["r-references.bib"]
+
+figsintext        : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+lineno            : yes
+mask              : no
+
+class             : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r load_packages, include = FALSE}
+library("papaja")
+```
+
+```{r create-data, include = FALSE, eval = FALSE}
+##this code shows how we combined the data
+temp = list.files(pattern="*.dat")
+myfiles = lapply(temp, read.delim)
+dataset = do.call(rbind, myfiles)
+
+dataset$partno = with(dataset, paste(date,time,subject, sep = ""))
+table(dataset$partno)
+
+wordpairs = read.delim("finalpairs2.txt", header = F)
+wordpairs$index = paste(tolower(as.character(wordpairs$V2)),
+                        tolower(as.character(wordpairs$V3)), sep = ".") 
+
+##these files can be found in our SPP git-hub or word-norms2 github
+swow = read.delim("strength.SWOW-EN.R123.csv")
+swow$index = paste(tolower(as.character(swow$cue)),
+                   tolower(as.character(swow$response)), sep = ".")
+usf = read.delim("usf_norms.txt")
+usf$index = paste(tolower(as.character(usf$CUE)),
+                  tolower(as.character(usf$TARGET)), sep = ".")
+
+library(expss)
+
+wordpairs$fsg = vlookup(wordpairs$index, usf, "FSG", "index")
+wordpairs$bsg = vlookup(wordpairs$index, usf, "BSG", "index")
+wordpairs$swow = vlookup(wordpairs$index, swow, "R123.Strength", "index")
+
+write.csv(dataset, "complete_data.csv", row.names = F)
+```
+
+
+# Method
+
+## Participants
+
+## Material
+
+## Procedure
+
+## Data analysis
+
+# Results
+
+# Discussion
+
+
+\newpage
+
+# References
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id = "refs"></div>
+\endgroup
