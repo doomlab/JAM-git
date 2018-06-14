@@ -1,34 +1,29 @@
 ---
-title             : "The title"
-shorttitle        : "Title"
+title             : "The influence of confidence on Judgments of Associate Memory"
+shorttitle        : "Confident JAM"
 
 author: 
-  - name          : "First Author"
+  - name          : "Erin M. Buchanan"
     affiliation   : "1"
     corresponding : yes    # Define only one corresponding author
-    address       : "Postal address"
-    email         : "my@email.com"
-  - name          : "Ernst-August Doelle"
-    affiliation   : "1,2"
+    address       : "901 S. National Ave, Springfield, MO, 65897"
+    email         : "erinbuchanan@missouristate.edu"
+  - name          : "Amber Gillenwaters"
+    affiliation   : "1"
 
 affiliation:
   - id            : "1"
-    institution   : "Wilhelm-Wundt-University"
-  - id            : "2"
-    institution   : "Konstanz Business School"
-
+    institution   : "Missouri State University"
+  
 author_note: |
-  Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
-
-  Enter author note here.
-
+  Erin M. Buchanan is an Associate Professor of Psychology at Missouri State University, and Amber Gillenwaters is a masters degree candidate in Experimental Psychology at Missouri State University.
+  
 abstract: |
   Enter abstract here. Each new line herein must be indented, like this line.
   
 keywords          : "keywords"
-wordcount         : "X"
 
-bibliography      : ["r-references.bib"]
+#bibliography      : ["r-references.bib"]
 
 figsintext        : no
 figurelist        : no
@@ -43,10 +38,15 @@ output            : papaja::apa6_pdf
 
 ```{r load_packages, include = FALSE}
 library("papaja")
+
+#load the data
+master = read.csv("complete_data.csv")
 ```
 
+don't run this block, I already made the data
 ```{r create-data, include = FALSE, eval = FALSE}
 ##this code shows how we combined the data
+#set working directory to the data folder
 temp = list.files(pattern="*.dat")
 myfiles = lapply(temp, read.delim)
 dataset = do.call(rbind, myfiles)
@@ -58,8 +58,8 @@ wordpairs = read.delim("finalpairs2.txt", header = F)
 wordpairs$index = paste(tolower(as.character(wordpairs$V2)),
                         tolower(as.character(wordpairs$V3)), sep = ".") 
 
-##these files can be found in our SPP git-hub or word-norms2 github
-swow = read.delim("strength.SWOW-EN.R123.csv")
+##these files can be found in our SPP or wordnorms2 github
+swow = read.csv("strength.SWOW-EN.R123.csv")
 swow$index = paste(tolower(as.character(swow$cue)),
                    tolower(as.character(swow$response)), sep = ".")
 usf = read.delim("usf_norms.txt")
@@ -72,6 +72,9 @@ wordpairs$fsg = vlookup(wordpairs$index, usf, "FSG", "index")
 wordpairs$bsg = vlookup(wordpairs$index, usf, "BSG", "index")
 wordpairs$swow = vlookup(wordpairs$index, swow, "R123.Strength", "index")
 
+dataset$fsg = vlookup(dataset$trialcode, wordpairs, "fsg", "V1")
+dataset$bsg = vlookup(dataset$trialcode, wordpairs, "bsg", "V1")
+dataset$swow = vlookup(dataset$trialcode, wordpairs, "swow", "V1")  
 write.csv(dataset, "complete_data.csv", row.names = F)
 ```
 
@@ -87,6 +90,72 @@ write.csv(dataset, "complete_data.csv", row.names = F)
 ## Data analysis
 
 # Results
+
+```{r data-screening, include = FALSE}
+##remove text responses from the response column
+master$response = as.numeric(as.character(master$response))
+
+##remove those lines from the data
+
+##remove practice trials
+
+##only screen the response column
+
+#rescale responses to 0 to 100
+master$response = master$response * 10 - 5
+
+#rescale others so all 100 scale
+master[ , c("fsg", "bsg", "swow")] = master[ , c("fsg", "bsg", "swow")] * 100
+```
+
+Hypothesis 1: 
+The JAM effect will replicate previous research.
+
+Analyze with MLM:
+Use partno as random factor
+Test if trialcode needs to be second random factor
+Use FSG as IV
+Use response as the DV - subset the data without the confidence trials
+
+```{r mlm-hyp1, include = FALSE}
+
+```
+
+Hypothesis 2:
+Does confidence change within the course of the experiment?
+
+Analyze with MLM:
+Use partno as random factor
+Use trialnum as the IV
+Use response as the DV - subset the data to only confidence trials
+
+```{r mlm-hyp2, include = FALSE}
+
+```
+
+Hypothesis 3:
+Does confidence relate to the actual JAM? 
+- Figure out the difference score between FSG and response (level of accuracy) for the trial before confidence 
+- Use confidence to predict that score
+
+Analyze with MLM:
+Use partno as random factor
+Use confidence*fsg as the IV
+Use response as the DV 
+
+```{r mlm-hyp3, include = FALSE}
+##creating a dataset that will work for you
+confidencetrials = seq(5,120,5)
+jamtrials = seq(4,119,5)
+
+confidencedata = master[master$trialnum %in% confidencetrials , ]
+judgmentdata = master[master$trialnum %in% jamtrials, ]
+
+##this assumes they are lined up the same, I will need to check it after data screening
+judgmentdata$confidence = confidencedata$response
+
+```
+
 
 # Discussion
 
