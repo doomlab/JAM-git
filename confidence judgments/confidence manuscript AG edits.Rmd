@@ -1,0 +1,401 @@
+---
+title             : "The influence of confidence on Judgments of Associate Memory"
+shorttitle        : "Confident JAM"
+
+author: 
+  - name          : "Erin M. Buchanan"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "901 S. National Ave, Springfield, MO, 65897"
+    email         : "erinbuchanan@missouristate.edu"
+  - name          : "Amber Gillenwaters"
+    affiliation   : "1"
+
+affiliation:
+  - id            : "1"
+    institution   : "Missouri State University"
+  
+author_note: |
+  Erin M. Buchanan is an Associate Professor of Psychology at Missouri State University, and Amber Gillenwaters is a masters degree candidate in Experimental Psychology at Missouri State University.
+  
+abstract: |
+  Enter abstract here. Each new line herein must be indented, like this line.
+  
+keywords          : "keywords"
+
+#bibliography      : ["r-references.bib"]
+
+figsintext        : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+lineno            : yes
+mask              : no
+
+class             : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r load_packages, include = FALSE}
+library("papaja")
+
+#load the data
+master = read.csv("complete_data.csv")
+```
+
+don't run this block, I already made the data
+```{r create-data, include = FALSE, eval = FALSE}
+##this code shows how we combined the data
+#set working directory to the data folder
+temp = list.files(pattern="*.dat")
+myfiles = lapply(temp, read.delim)
+dataset = do.call(rbind, myfiles)
+
+dataset$partno = with(dataset, paste(date,time,subject, sep = ""))
+table(dataset$partno)
+
+wordpairs = read.delim("finalpairs2.txt", header = F)
+wordpairs$index = paste(tolower(as.character(wordpairs$V2)),
+                        tolower(as.character(wordpairs$V3)), sep = ".") 
+
+##these files can be found in our SPP or wordnorms2 github
+swow = read.csv("strength.SWOW-EN.R123.csv")
+swow$index = paste(tolower(as.character(swow$cue)),
+                   tolower(as.character(swow$response)), sep = ".")
+usf = read.delim("usf_norms.txt")
+usf$index = paste(tolower(as.character(usf$CUE)),
+                  tolower(as.character(usf$TARGET)), sep = ".")
+
+library(expss)
+
+wordpairs$fsg = vlookup(wordpairs$index, usf, "FSG", "index")
+wordpairs$bsg = vlookup(wordpairs$index, usf, "BSG", "index")
+wordpairs$swow = vlookup(wordpairs$index, swow, "R123.Strength", "index")
+
+dataset$fsg = vlookup(dataset$trialcode, wordpairs, "fsg", "V1")
+dataset$bsg = vlookup(dataset$trialcode, wordpairs, "bsg", "V1")
+dataset$swow = vlookup(dataset$trialcode, wordpairs, "swow", "V1")  
+write.csv(dataset, "complete_data.csv", row.names = F)
+```
+
+
+# Method
+
+## Participants
+
+## Material
+
+## Procedure
+
+## Data analysis
+
+# Results
+
+```{r data-screening, include = FALSE}
+##remove text responses from the response column
+
+master$response = as.numeric(as.character(master$response))
+
+##remove those lines from the data
+
+#nomiss = na.omit(master) - good idea but there are lots of trials with NAs because they do not have the FSG for confidence, which is ok 
+nomiss = master[ !is.na(master$response) , ]
+
+##remove practice trials
+
+summary(nomiss$trialcode)
+#noprac = subset(nomiss, trialcode!= "prac1" & trialcode!= "prac2" & trialcode!= "prac3" & trialcode!= "prac4" & trialcode!= "prac5" & trialcode!= "prac6" & trialcode!= "prac7" & trialcode!= "prac8")
+
+##great - want to learn regex? you could also do grep, which looks for patterns
+#so grep("real|conf", nomiss$trialcode) shows you which ones have real or conf codes
+#going to use this one because we also want to drop those lost, article, old, and followup trials ... before you had dropped them with na.omit, but didn't want to do that because it would also omit the confidence trials
+noprac = nomiss[ grep("real|conf", nomiss$trialcode) , ]
+summary(noprac$trialcode)
+
+##only screen the response column
+
+summary(noprac$response)
+
+#outliers - ok I've rethought this - we only want to screen the response column, which had a 0 to 10 scale now that I've relooked at it. I don't think someone can have an outlier then - maybe if they were the only one to pick 0 and everyone else picked like 9 and 10. But then they'd actually be doing the experiment right (0 is a more likely answer than 10). 
+
+zscores = scale(noprac$response)
+summary(zscores)
+summary(noprac$response)
+#i see that the z scores don't go over 1, but they do have negative three but that is someone picking zero which is a valid answer, so let's not mess with it.
+
+#fix up the data
+jamtrials = seq(4,119,5)
+judgmentdata = noprac[noprac$trialnum %in% jamtrials, ]
+
+confidencetrials = seq(5,120,5)
+confidencedata = noprac[noprac$trialnum %in% confidencetrials , ]
+
+judgmentdata$confidence = confidencedata$response
+
+####assumptions from mlm hypothesis 1####
+screen = lme(response ~ fsg,
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~ fsg|partno,
+             control = lmeControl(msMaxIter = 200))
+
+standardized = as.data.frame(scale(screen$residuals))
+standardized = standardized$fixed
+fitted = scale(fitted.values(screen))
+
+##Linearity
+qqnorm(standardized); abline(0,1)
+
+##normality
+hist(standardized)
+
+##homog and s
+plot(fitted,standardized); abline(0,0); abline(v=0)
+
+#rescale responses to 0 to 100
+noout$response = noout$response * 10 - 5
+
+#rescale others so all 100 scale
+noout[ , c("fsg", "bsg", "swow")] = noout[ , c("fsg", "bsg", "swow")] * 100
+
+#assumptions from mlm hypothesis 2
+
+screen2 = lme(response ~ trialnum,
+             data = confidencedata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~ trialnum|partno,
+             control = lmeControl(msMaxIter = 200))
+
+standardized2 = as.data.frame(scale(screen2$residuals))
+standardized2 = standardized2$fixed
+fitted2 = scale(fitted.values(screen2))
+
+##Linearity
+qqnorm(standardized2); abline(0,1)
+
+##normality
+hist(standardized2)
+
+##homog and s
+plot(fitted,standardized2); abline(0,0); abline(v=0)
+
+#assumptions from mlm hypothesis 3
+screen3 = lme(response ~ confidence*fsg, 
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~1|partno)
+
+standardized3 = as.data.frame(scale(screen3$residuals))
+standardized3 = standardized3$fixed
+fitted3 = scale(fitted.values(screen))
+
+##Linearity
+qqnorm(standardized3); abline(0,1)
+
+##normality
+hist(standardized3)
+
+##homog and s
+plot(fitted,standardized3); abline(0,0); abline(v=0)
+
+```
+
+Hypothesis 1: 
+The JAM effect will replicate previous research.
+
+Analyze with MLM:
+Use partno as random factor
+Test if trialcode needs to be second random factor
+Use FSG as IV
+Use response as the DV - subset the data without the confidence trials
+
+```{r mlm-hyp1, include = FALSE}
+library(nlme)
+
+jamtrials = seq(4,119,5)
+judgmentdata = master[master$trialnum %in% jamtrials, ]
+
+#####intercept only model####
+##gls = generalized least squares
+##ML = maximum likelihood
+model1 = gls(response ~ 1, 
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit")
+summary(model1)
+
+####random intercept only model####
+##note we switched to LME function
+model2 = lme(response ~ 1, 
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~1|partno)
+summary(model2)
+anova(model1, model2)
+
+####second level####
+model2.1 = lme(response ~ 1, 
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = list(~1|partno, ~1|trialcode))
+summary(model2.1)
+anova(model1, model2, model2.1)
+
+####predictor model####
+model3 = lme(response ~ fsg, 
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~1|partno)
+summary(model3)
+anova(model1, model2, model3)
+
+####random slopes####
+model4 = lme(response ~ fsg,
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~ fsg|partno,
+             control = lmeControl(msMaxIter = 200))
+summary(model4)
+anova(model1, model2, model3, model4)
+```
+
+Hypothesis 2:
+Does confidence change within the course of the experiment?
+
+Analyze with MLM:
+Use partno as random factor
+Use trialnum as the IV
+Use response as the DV - subset the data to only confidence trials
+
+```{r mlm-hyp2, include = FALSE}
+
+confidencetrials = seq(5,120,5)
+confidencedata = master[master$trialnum %in% confidencetrials , ]
+
+#####intercept only model####
+model5 = gls(response ~ 1, 
+             data = confidencedata, 
+             method = "ML", 
+             na.action = "na.omit")
+summary(model5)
+
+####random intercept only model####
+model6 = lme(response ~ 1, 
+             data = confidencedata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~1|partno)
+summary(model6)
+anova(model5, model6)
+
+####predictor model####
+model7 = lme(response ~ trialnum, 
+             data = confidencedata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = list(~1|partno))
+summary(model7)
+anova(model5, model6, model7)
+
+####random slopes####
+model8 = lme(response ~ trialnum,
+             data = confidencedata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~ trialnum|partno,
+             control = lmeControl(msMaxIter = 200))
+summary(model8)
+anova(model5, model6, model7, model8)
+```
+
+Hypothesis 3:
+Does confidence relate to the actual JAM? 
+- Figure out the difference score between FSG and response (level of accuracy) for the trial before confidence 
+- Use confidence to predict that score
+
+Analyze with MLM:
+Use partno as random factor
+Use confidence*fsg as the IV
+Use response as the DV 
+
+```{r mlm-hyp3, include = FALSE}
+##creating a dataset that will work for you
+##this assumes they are lined up the same, I will need to check it after data screening
+
+#jamtrials = seq(4,119,5)
+#judgmentdata = master[master$trialnum %in% jamtrials, ]
+
+#confidencetrials = seq(5,120,5)
+#confidencedata = master[master$trialnum %in% confidencetrials , ]
+
+judgmentdata$confidence = confidencedata$response
+
+#####intercept only model####
+##gls = generalized least squares
+##ML = maximum likelihood
+model9 = gls(response ~ 1, 
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit")
+summary(model9)
+
+####random intercept only model####
+##note we switched to LME function
+model10 = lme(response ~ 1, 
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~1|partno)
+summary(model10)
+anova(model9, model10)
+
+####predictor model####
+model11 = lme(response ~ confidence*fsg, 
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~1|partno)
+summary(model11)
+anova(model9, model10, model11)
+
+####random slopes####
+model12 = lme(response ~ confidence*fsg,
+             data = judgmentdata, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~ confidence|partno,
+             control = lmeControl(msMaxIter = 200))
+summary(model12)
+anova(model9, model10, model11, model12)
+
+####assumptions from mlm####
+screen = lme(latency ~ response,
+             data = noout, 
+             method = "ML", 
+             na.action = "na.omit",
+             random = ~ response|partno,
+             control = lmeControl(msMaxIter = 200))
+
+```
+
+
+# Discussion
+
+
+\newpage
+
+# References
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id = "refs"></div>
+\endgroup
