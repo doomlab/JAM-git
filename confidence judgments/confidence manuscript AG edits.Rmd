@@ -133,6 +133,8 @@ confidencedata = noprac[noprac$trialnum %in% confidencetrials , ]
 judgmentdata$confidence = confidencedata$response
 
 ####assumptions from mlm hypothesis 1####
+library(nlme)
+
 screen = lme(response ~ fsg,
              data = judgmentdata, 
              method = "ML", 
@@ -154,10 +156,10 @@ hist(standardized)
 plot(fitted,standardized); abline(0,0); abline(v=0)
 
 #rescale responses to 0 to 100
-noout$response = noout$response * 10 - 5
+noprac$response = noprac$response * 10 - 5
 
 #rescale others so all 100 scale
-noout[ , c("fsg", "bsg", "swow")] = noout[ , c("fsg", "bsg", "swow")] * 100
+noprac[ , c("fsg", "bsg", "swow")] = noprac[ , c("fsg", "bsg", "swow")] * 100
 
 #assumptions from mlm hypothesis 2
 
@@ -326,14 +328,6 @@ Use confidence*fsg as the IV
 Use response as the DV 
 
 ```{r mlm-hyp3, include = FALSE}
-##creating a dataset that will work for you
-##this assumes they are lined up the same, I will need to check it after data screening
-
-#jamtrials = seq(4,119,5)
-#judgmentdata = master[master$trialnum %in% jamtrials, ]
-
-#confidencetrials = seq(5,120,5)
-#confidencedata = master[master$trialnum %in% confidencetrials , ]
 
 judgmentdata$confidence = confidencedata$response
 
@@ -377,7 +371,7 @@ anova(model9, model10, model11, model12)
 
 ####assumptions from mlm####
 screen = lme(latency ~ response,
-             data = noout, 
+             data = noprac, 
              method = "ML", 
              na.action = "na.omit",
              random = ~ response|partno,
