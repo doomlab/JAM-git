@@ -190,10 +190,9 @@ Participants were asked to estimate the probability of their combination of each
 
 ### Control Group
 
-```{r}
+```{r control-stim, include=FALSE}
 ##these files can be found in the exp and control set up folder along with the instructions, consent, etc. that are described. 
 ```
-
 
 Results from a separate control group were compared against the experimental participant judgment scores. Since each experimental participant's final word pairs were different, a group of cue-target pairings was selected from the @Nelson2004 database to match the experimental groups. The same twenty cues were used, and target words were mixed so that there was an equal number of low, medium, and high pairings. Three cue-target pairs were chosen for each original cue of the experimental norming phase, and therefore, 60 cue-target pairs were presented to participants. Several cues were repeated to create 60 word-pairs, to match the repetition in the experimental group. The average FSG was *M* = .19 (*SD* = .25) and the BSG was *M* = .08 (*SD* = .15).
 
