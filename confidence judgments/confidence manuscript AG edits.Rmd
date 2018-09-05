@@ -376,9 +376,41 @@ screen = lme(latency ~ response,
              na.action = "na.omit",
              random = ~ response|partno,
              control = lmeControl(msMaxIter = 200))
-
 ```
 
+First, text responses were recoded to numerals. 157 observations missing data in the response section were removed from analysis. Next, practice trial responses were removed from the dataset, resulting in 5536 observed responses. The data were then divided into JAM trials and confidence trials using subsetting. In the final model, confidence trials were analyzed with JAM trials. 
+
+Because each participant contributed a multitude of data points, a mixed-model was used to evaluate the influence of confidence on judgments of memories, while controlling for correlated error. The nlme package developed by Pinheiro, Bates, DebRoy, Sarkar, and the R Core Team (2018) was used to conduct a maximum likelihood multi-level model. First, the judgements of associative memory were expected to replicate previous research. Next, changes in confidence over the course of the experiment were examined. Lastly, the relationship between confidence and judgements of associative memories were explored. 
+
+Participant was used as a random factor in all three hypothesis tests, and all models improved with random intercepts, providing support for the use of multi-level modeling. The predictive model for the first hypothesis included forward word strength in the judgment trials (See Table 1 for associated figures). Trial code was tested at this stage, but was not significant, suggesting that the observed effect did not differ across trials. Random slopes slightly increased the accuracy of the model. As expected, forward strength appeared to predict judgment associative memory, independent of confidence trials, *b* = 4.34, *t*(1104) = 14.42, *p* < .001.
+
+Interestingly, confidence changed over the course of the experiment. The predictive model demonstrated that the number of the trial influenced level of confidence, *b* = 6.95, *t*(1104) = 32.40, *p* < .001. In this case, random slopes did not increase accuracy of the prediction. Finally, the relationship between confidence, JAM and word forward strength were analyzed together. Confidence contributed to the difference score between forward strength and JAM scores. There was a significant main effect between confidence and judgment associative memory, *b* = .37, *t*(1102) = 8.66, *p* < .001, as well as between forward strength and judgment associative memory, *b* = 2.05, *t*(1102) = 2.75, *p* = .006. The interaction of confidence and forward strength was not significant, *b* = .17, *t*(1102) = 1.80, *p* = .07. Again, random slopes did not increase accuracy. 
+
+Table 1
+*Multillevel model statistic information for confidence and judgment associative memory*
+```{r tab, include = FALSE}
+
+library(knitr)
+tableprint = matrix(NA, nrow = 10, ncol = 8)
+colnames(tableprint) = c("Hypothesis", "Model", "df", "AIC", 
+                         "BIC", "chi-square", "chi-square change", "p")
+
+tableprint[1, ] = c("1", "Intercept Only", 2, 5453.64,  5463.75, -2724.82, "n/a", "n/a")
+tableprint[2, ] = c("1", "Random Intercept", 3, 5380.52, 5395.68, -2687.26, 37.56, "<.001")
+tableprint[3, ] = c("1", "Predictive Variable", 4, 4989.65, 5009.87, -2490.82, 196.43, "<.001")
+tableprint[4, ] = c("1", "Random Slopes", 6, 4956.05, 4986.38, -2472.03, 18.79, "<.001")
+tableprint[5, ] = c("2", "Intercept Only", 2, 5070.31,  5080.41, -2433.15, "n/a", "n/a")
+tableprint[6, ] = c("2", "Random Intercept", 3, 4751.223, 4766.39, -2372.61, 60.54, "<.001")
+tableprint[7, ] = c("2", "Predictive Variable", 4, 4745.70, 4765.92, -2368.85, 3.76, .006)
+tableprint[8, ] = c("3", "Intercept Only", 2, 5453.64, 5463.75, -2724.82, "n/a", "n/a")
+tableprint[9, ] = c("3", "Random Intercept", 3, 5380.52, 5395.68, -2687.26, 37.56, "<.001")
+tableprint[10, ] = c("3", "Predictive Variable", 6, 4835.14, 4865.46, -2411.57, 275.69, "<.001")
+```
+
+```{r tab, include = TRUE}
+kable(tableprint)
+```
+*Note.* AIC: Aikaike Information Criterion, BIC: Bayesian Information Criterion
 
 # Discussion
 
@@ -386,6 +418,14 @@ screen = lme(latency ~ response,
 \newpage
 
 # References
+
+  @Manual{,
+    title = {{nlme}: Linear and Nonlinear Mixed Effects Models},
+    author = {Jose Pinheiro and Douglas Bates and Saikat DebRoy and Deepayan Sarkar and {R Core Team}},
+    year = {2018},
+    note = {R package version 3.1-137},
+    url = {https://CRAN.R-project.org/package=nlme},
+  }
 
 \begingroup
 \setlength{\parindent}{-0.5in}
