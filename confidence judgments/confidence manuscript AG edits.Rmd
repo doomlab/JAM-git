@@ -43,7 +43,8 @@ library("papaja")
 master = read.csv("complete_data.csv")
 ```
 
-don't run this block, I already made the data
+In a judgments-of-memory task, participants are given pairs of words and asked to judge how many people out of 100 would put those two words together.  For instance, when given the pair LOST-FOUND, participants should mark that about 75 people say FOUND when given LOST.  Maki (2007) and Buchanan (2009) have shown that these judgments are very insensitive to the difference between high frequency and low frequency pairs, as well as upwardly biased.  These judgments are similar to judgments of learning, where participants are asked to learn material and then judge how well they will do on an exam of that material.  Participants are quite bad at guessing how well they will do, showing very biased answers, especially the poorer performers (Koriat & Bjork, 2006).  When asked about the task, participants often describe that it was “easy”, but they had a hard time guessing numbers for the experiment.  In fact, a wide range of participant performance exists that cannot be accounted by working memory or fluid intelligence (Buchanan, manuscript revision).  In this experiment, we will test participant confidence ratings to examine the interaction between participant confidence and performance.
+
 ```{r create-data, include = FALSE, eval = FALSE}
 ##this code shows how we combined the data
 #set working directory to the data folder
@@ -78,14 +79,19 @@ dataset$swow = vlookup(dataset$trialcode, wordpairs, "swow", "V1")
 write.csv(dataset, "complete_data.csv", row.names = F)
 ```
 
-
 # Method
 
 ## Participants
 
+Participants will be recruited from the Psychology Undergraduate Pool by use of the SONA system.  Generally, these participants will be undergraduates and over 18 years of age.  Participants will take the experiments in small groups of one to four people in the researcher’s computer lab.
+
 ## Material
 
+Nelson norms blah blah blah. 
+
 ## Procedure
+
+Participants are given instructions (attached) on a free association task and how to judge the word frequency between two words.  After these instructions, they are given practice words for judgments.  Participants will complete 125 experimental pairs.  Every four pairs, they will be asked to make a confidence judgment about the previous pair (resulting in 24 ratings). A separate group of participants will make these ratings without the confidence judgments for comparison  These will be given on the computer in a randomized order, along with confidence judgments.  The attached packet will be shown on the computer.
 
 ## Data analysis
 
