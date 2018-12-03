@@ -1,0 +1,68 @@
+assist 1 1 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+bashful 2 2 2 2 2 1 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 1 2 1 1 1 2 2 1 2 2 1 1 2 1 
+before 1 2 1 1 2 2 2 2 2 1 2 1 2 1 2 2 2 1 2 2 1 2 2 2 2 2 2 2 2 2 2 1 2 2 2 1 2 1 
+beginning 1 2 2 2 2 2 2 2 2 1 2 1 2 2 1 2 1 1 2 1 2 2 2 1 2 2 2 2 2 1 2 1 1 2 2 1 2 1 
+b1 2 1 2 1 2 1 2 2 2 1 1 2 2 1 2 2 2 1 2 1 2 1 1 1 2 2 2 2 2 2 1 2 2 1 2 2 2 2 
+body 2 2 2 2 1 2 2 2 2 2 2 2 2 1 2 1 2 2 2 2 1 1 1 1 2 2 2 2 2 2 1 2 1 2 2 2 2 2 
+bouquet 1 2 1 1 1 1 1 2 1 2 2 2 2 1 1 2 1 1 2 2 2 2 2 1 2 2 1 1 2 1 1 2 2 1 2 1 1 1 
+break 1 1 1 2 1 2 2 2 1 1 2 2 2 1 2 2 1 1 2 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 
+bum 2 1 2 1 1 2 1 1 1 1 1 1 2 1 1 1 1 1 1 1 2 1 1 1 1 2 2 1 1 2 1 1 1 2 2 1 1 2 
+car 2 1 2 2 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 1 2 1 2 2 2 2 2 2 2 2 2 2 2 2 
+casual 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 1 2 2 2 1 2 1 2 1 1 2 
+challenge 1 2 1 1 2 1 2 2 1 2 2 1 2 1 1 1 1 2 2 2 2 1 1 1 2 1 2 2 1 2 2 2 2 2 2 2 2 1 
+chauffeur 1 2 1 1 1 1 1 2 2 1 2 1 1 1 1 2 1 2 2 2 1 1 1 2 1 1 1 2 1 2 1 2 1 2 1 1 1 1 
+chowder 1 1 2 1 1 1 2 1 1 2 1 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 2 2 2 1 2 2 1 
+cinema 1 1 1 2 1 1 2 2 2 1 2 1 2 2 2 1 1 2 2 2 2 1 1 2 2 1 2 2 2 2 1 2 1 2 2 2 2 2 
+closed 2 2 1 2 2 2 2 2 1 1 2 2 2 2 1 2 1 2 2 1 1 2 2 1 2 1 2 2 2 2 2 2 1 2 2 1 2 2 
+cloth 2 2 1 2 2 1 2 2 1 2 2 2 2 1 2 2 1 2 2 2 1 1 1 2 2 2 2 2 1 2 1 1 1 2 2 1 2 2 
+common 2 2 2 2 2 2 1 2 1 2 2 1 1 2 1 2 2 2 2 1 2 2 2 1 2 2 2 1 2 1 2 1 2 2 2 1 1 2 
+computer 2 1 2 2 1 2 2 1 1 2 2 2 1 1 2 2 2 2 2 2 1 1 1 2 2 1 2 2 2 1 1 2 2 2 2 2 1 2 
+corpse 1 2 1 1 2 1 2 1 1 2 2 2 2 1 1 1 2 1 2 1 2 2 2 2 1 1 1 1 1 1 1 1 1 2 2 1 2 2 
+dancer 2 2 2 2 2 2 1 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 
+dangerous 2 2 2 2 2 1 2 2 1 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 1 
+difficult 1 2 1 1 2 2 2 2 1 1 2 2 2 2 1 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 1 
+melody 1 2 2 1 2 1 2 2 2 2 2 1 2 2 1 2 1 1 2 1 2 1 1 2 2 1 2 2 1 1 1 2 1 1 2 2 2 2 
+meow 2 1 1 1 1 1 2 2 2 2 2 1 2 1 2 1 1 1 2 2 1 2 2 1 2 1 2 2 2 1 1 1 2 1 2 2 2 1 
+organize 2 1 1 2 2 2 2 1 2 1 2 1 1 1 2 2 2 2 2 2 1 2 2 1 2 2 2 2 1 2 2 2 1 2 2 2 1 2 
+patience 1 2 1 2 2 2 2 2 2 1 1 1 2 1 2 2 1 2 2 2 1 2 2 1 2 1 2 2 1 2 2 1 2 1 2 2 2 1 
+peaceful 2 2 1 2 2 2 2 2 2 2 1 2 2 1 2 2 2 2 1 2 2 2 2 2 2 1 2 1 2 2 2 1 1 1 1 1 2 1 
+pupil 1 2 1 1 1 2 1 1 1 1 2 1 2 2 2 1 1 1 2 2 1 2 2 2 2 2 2 1 2 2 2 1 1 2 1 2 2 1 
+racket 2 1 2 2 1 1 1 2 2 1 2 2 1 1 2 2 2 2 2 2 1 2 2 1 1 2 2 2 2 1 1 2 2 1 2 2 2 1 
+Experimental:    
+Free Association Association Association 
+Practice:    
+article paper newspaper something 
+assist low low low high high low high high low high high high high high high high high high high high low high high high high low high high high high high high high high high high high high high high high 
+bashful high high high high high high low high high high high high high low high high high high high high high high high high high high low high low low low high high low high high low low low high low 
+before low high low low high low high high high high high low high low high low high high high low high high low high high high high high high high high high high low high high high high low high low 
+beginning low high high high high low high high high high low low high low high high low high low low high low high high high low high high high high high low high low low high high high low high low 
+blow high low high low high low low high high high high low low high high low high high high low high low high low low low high high high high high high low high high low high high high high high 
+body high high high high low low high high high high low high high high high low high low high high high high low low low low high high high high high high low high low high high high high high high 
+bouquet low high low low low high low low high low high high high high high low low high low low high high high high high low high high low low high low low high high low high high low low low 
+break low low low high low high high high high low low low high high high low high high low low high low low high high high high high high high high high high high high high high high high high low 
+bum high low high low low low high low low low high low low low high low low low low low low low high low low low low high high low low high low low low high high low low low high 
+car high low high high high high high high high low low high high high high low high high high high high high high high high low high low high high high high high high high high high high high high high 
+casual high high high high high low high high high high high high high high high low high high high high low high high high high high high high high low high high high low high low high high low low high 
+challenge low high low low high high low high high low high high high low high low low low low high high high high low low low high low high high low high high high high high high high high high low 
+chauffeur low high low low low high low low high high low low high low low low low high low high high high low low low high low low low high low high low high low high low high low low low 
+chowder low low high low low high low high low low low high low high high low low low low low low low low low low low low low high low low low low high high high low high high high low 
+cinema low low low high low high low high high high low low high low high high high low low high high high high low low high high low high high high high low high low high high high high high high 
+closed high high low high high low high high high low high low high high high high low high low high high low low high high low high low high high high high high high low high high high low high high 
+cloth high high low high high low low high high low high high high high high low high high low high high high low low low high high high high high low high low low low high high high low high high 
+common high high high high high low high low high low high high high low low high low high high high high low high high high low high high high low high low high low high high high high low low high 
+computer high low high high low high high high low low low high high high low low high high high high high high low low low high high low high high high low low high high high high high high low high 
+corpse low high low low high low low high low low low high high high high low low low high low high low high high high high low low low low low low low low low high high high low high high 
+dancer high high high high high high high low high high high high high high low high high high high high high high high high high high high low high high high high high high high high high low high high high 
+dangerous high high high high high low low high high low high high high high high high high high high high high high low high high high high high high high low high high high high high high high high high low 
+difficult low high low low high low high high high low high low high high high high low high high high high high high high high low high high high high high high high high high high high high high high low 
+journal  
+lost found gone cant 
+melody low high high low high high low high high high low high high low high high low high low low high low high low low high high low high high low low low high low low high high high high high 
+meow high low low low low low low high high high high high high low high low high low low low high high low high high low high low high high high low low low high low high high high high low 
+old young grandparents long 
+organize high low low high high low high high low high high low high low low low high high high high high high low high high low high high high high low high high high low high high high high low high 
+patience low high low high high low high high high high high low low low high low high high low high high high low high high low high low high high low high high low high low high high high high low 
+peaceful high high low high high low high high high high high high low high high low high high high high low high high high high high high low high low high high high low low low low high low high low 
+pet  
+pupil low high low low low low high low low low low low high low high high high low low low high high low high high high high high high low high high high low low high low low high high low 
+racket high low high high low low low low high high low low high high low low high high high high high high low high high low low high high high high low low high high low high high high high low 

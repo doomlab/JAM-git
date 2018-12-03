@@ -1,0 +1,17 @@
+7. Application to associative judgments
+*** rewrite choice axiom as v=P * sum(v)
+*** or, more generally, v = c + sum(v) * P
+*** Thus choice model predicts that judgments of associative strength
+*** are a linear function of free association probabilities --
+*** and that is the JAM function (Maki, 2007a, 2007b)
+*** Summarize judgment data from Maki, 2007a, 2007b
+*** Use search routines to recover FSG and BSG weighting values
+*** as well as values of bias parameter for each experiment.
+*** Discuss fit of model
+
+Another way of expressing Eq. 1A is to solve for response strength, vi:
+vi = sum(vj) pi :::: Eq. 5
+Eq. 5 makes it clear that response strength for items in the choice set is a linear function of response probability.
+
+
+

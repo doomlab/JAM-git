@@ -1,0 +1,33 @@
+5. Discovering theoretical means
+*** like Maki 2008
+*** but using Luce choice axiom, P=v/sum(v)
+*** where v=exp(a*u)
+*** Use gradient descent to find u for each cue-response pair
+
+Discovering theoretical means
+
+The Nelson et al. (2004) word association norms are based on the traditional free association method in which people are asked to give the first word (response, or target) that comes to mind when presented with a cue word.  The probability of some response given a cue is known as the forward associative strength (FSG).  Many of the responses in the norms were then themselves used as cue words for other people.  In that manner the reverse probability, the backward associative strength (BSG) could then be computed.  In order to make theoretical progress connecting choice theory to associations, we need to discover the theoretical offset values (ui) corresponding to the free association probabilities in the norms.
+
+Not all of the response words were normed by Nelson et al.  This is a problem because in later simulations we need to have theoretical values for both forward and backward associations.  The norms consist of 72,176 responses to over 5000 cues.  Of those responses, 8,557 (about 12%) were not normed.  The disposition of those responses is problematic.  If the cue-response probability (FSG) is tiny, then the response word can be treated as idiosyncratic and consigned to a catch-all, residual category.  But if the FSG for that response is large, then the cue-response association is too important to be folded into the residual.  After some initial exploration of this problem, we settled on a definition of large as FSG > 0.05.  Of the response words not normed, 826 have cue-response probabilities greater than 0.05.  If a response word was not normed but had forward strength of less than 0.05, then its strength was added to the residual.  If its strength was greater than 0.05, the entire cue set was dropped from the database.  This filtering left 4,393 cue sets in the revised norms.  For each of those cue sets, each response word had been normed (Nelson et al., 2004).
+
+In a choice set, each item has an associated distribution with a mean of ui + gamma/a.  The goal is to find the values of ui for each response word (gamma and a are constants).  To obtain the ui values, we followed the gradient descent procedures used by Maki (2008) with one important exception.  Our program used the Luce choice rule to minimize the difference FSG - pi, where pi was obtained from Equation 1 in which vi = exp(a ui).  The gradient descent algorithm we used is listed in Table 1.  
+
+As in Maki (2008), gradient descent terminated after 200 iterations and when the root mean-squared error (RMSE) was less than 0.001.  Averaged over all 4,393 cue sets, the RMSE was 0.00073 (range: 0.00000 - 0.00099).  Put another way, we were able to reproduce the values of FSG given our computed values of ui with extreme accuracy.  The results for one cue set, CANARY, are shown in Figure 1 in which the double exponential distributions are offset from zero by values of ui.  The values of ui for all responses were entered into a database and used in the simulations reported in the remainder of this paper.
+
+Table 1.  Gradient descent algorithm for discovery of mean strengths
+For each of 30 replications,
+  populate U with random values in the range 0 to 1
+  for each iteration,
+    V=exp(U*a) 
+    P=V/sum(V)
+    Error = FSG - P;
+    Delta(t) = Error * 0.5;
+    U = U + Delta(t) + Delta(t-1) * 0.9
+    RMSE = root mean squared Error
+  Continue for minimum 200 iterations and until RMSE < .001.
+U averaged over 30 replications.
+
+
+
+
+

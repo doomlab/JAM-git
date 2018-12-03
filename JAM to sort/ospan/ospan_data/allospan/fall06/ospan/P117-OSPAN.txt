@@ -1,0 +1,248 @@
+******************OVERALL DATA******************
+Test Date: 10/24/2006
+Test Time: 01:46:59
+IP Address: 127.0.0.1
+Final math percentage: 96%
+Total problems shown: 75
+Total letters correct: 58
+Average time given: 06.6594
+Average Recall Screen Time: 1.847
+Student ID: P117
+
+****************** Practice set  1 ******************
+Equations: (5*2) + 1|(4/1) + 5
+Shown Answers: 11|16
+Correct Answers: 11|9
+Student Answers: true|false
+Student Was Correct: correct|correct
+Letters Shown: N|Q
+Students Letters: N|Q
+Time on Problem screen: 04.593|03.86
+Time on Answer Screen: 01.313|00.875
+Times on Recall screen: 01.797|00.609
+Session Letters Correct: 2 of 2
+Session Math Percentage: 100%
+
+****************** Practice set  2 ******************
+Equations: (5/5) + 3|(1*8) + 7
+Shown Answers: 2|9
+Correct Answers: 4|15
+Student Answers: false|false
+Student Was Correct: correct|correct
+Letters Shown: P|J
+Students Letters: P|J
+Time on Problem screen: 03.078|01.641
+Time on Answer Screen: 00.953|00.875
+Times on Recall screen: 01.734|01.36
+Session Letters Correct: 2 of 2
+Session Math Percentage: 100%
+
+****************** Trial  1 ******************
+Equations: (7/7) + 7|(1*8) - 2|(8*2) + 1|(3*5) - 5|(8/1) - 8
+Shown Answers: 9|8|17|5|7
+Correct Answers: 8|6|17|10|0
+Student Answers: false|false|true|false|false
+Student Was Correct: correct|correct|correct|correct|correct
+Letters Shown: L|T|R|N|P
+Students Letters: L|T|R|N|P
+Time on Problem screen: 02.579|02.234|01.656|01.391|04.547
+Time on Answer Screen: 01.093|01.172|01.015|01.328|00.734
+Times on Recall screen: 01.062|00.61|00.578|00.797|00.734
+Session Letters Correct: 5 of 5
+Session Math Percentage: 100%
+
+****************** Trial  2 ******************
+Equations: (1*2) + 2|(3*5) + 3|(5*2) + 1|(2*2) + 6|(7/7) + 4|(1*3) - 6
+Shown Answers: -2|20|8|10|1|-12
+Correct Answers: 4|18|11|10|5|-3
+Student Answers: false|false|false|true|false|false
+Student Was Correct: correct|correct|correct|correct|correct|correct
+Letters Shown: P|J|T|F|Q|N
+Students Letters: -|J|T|F|Q
+Time on Problem screen: 01.953|02.843|03.203|04.282|02.079|04.016
+Time on Answer Screen: 02.125|01.625|00.922|00.734|00.984|01.406
+Times on Recall screen: 02.203|03.328|01.063|02.484|00.812
+Session Letters Correct: 4 of 6
+Session Math Percentage: 100%
+
+****************** Trial  3 ******************
+Equations: (3*3) + 6|(8/8) + 7|(3*2) - 0
+Shown Answers: 15|2|11
+Correct Answers: 15|8|6
+Student Answers: true|false|false
+Student Was Correct: correct|correct|correct
+Letters Shown: J|T|P
+Students Letters: J|T|P
+Time on Problem screen: 01.734|02.063|03.469
+Time on Answer Screen: 01.282|01.25|01.156
+Times on Recall screen: 03.062|00.688|00.484
+Session Letters Correct: 3 of 3
+Session Math Percentage: 100%
+
+****************** Trial  4 ******************
+Equations: (8*2) + 6|(8/4) + 7|(6*2) + 1|(6/6) - 9
+Shown Answers: 22|9|11|-8
+Correct Answers: 22|9|13|-8
+Student Answers: true|true|false|true
+Student Was Correct: correct|correct|correct|correct
+Letters Shown: K|H|S|P
+Students Letters: K|H|S|P
+Time on Problem screen: 05.828|02.921|02|02.359
+Time on Answer Screen: 01.078|01.094|00.843|00.813
+Times on Recall screen: 02.407|01.843|00.86|00.265
+Session Letters Correct: 4 of 4
+Session Math Percentage: 100%
+
+****************** Trial  5 ******************
+Equations: (9/3) + 7|(4/2) - 6|(1*8) - 5|(3*5) + 2
+Shown Answers: 15|5|3|17
+Correct Answers: 10|-4|3|17
+Student Answers: false|false|true|true
+Student Was Correct: correct|correct|correct|correct
+Letters Shown: P|H|S|R
+Students Letters: P|H|S|R
+Time on Problem screen: 02.172|03.031|02.594|02.25
+Time on Answer Screen: 01.062|01.484|00.625|01.109
+Times on Recall screen: 01.375|01.141|00.859|02.875
+Session Letters Correct: 4 of 4
+Session Math Percentage: 100%
+
+****************** Trial  6 ******************
+Equations: (9/3) - 1|(2*4) + 3|(2*5) + 1|(1*8) - 1|(3*4) + 9
+Shown Answers: 2|11|11|7|21
+Correct Answers: 2|11|11|7|21
+Student Answers: true|true|true|true|true
+Student Was Correct: correct|correct|correct|correct|incorrect
+Letters Shown: L|K|S|Q|F
+Students Letters: L|K|S|Q|F
+Time on Problem screen: 03.484|02.828|01.359|02.547|03.485
+Time on Answer Screen: 00.672|00.937|00.813|01.141|01.14
+Times on Recall screen: 01.547|01.484|00.563|00.531|00.765
+Session Letters Correct: 5 of 5
+Session Math Percentage: 80%
+
+****************** Trial  7 ******************
+Equations: (2*5) + 2|(3/1) - 3|(7/7) + 3|(1*8) + 9|(2/1) + 3|(2*4) - 8
+Shown Answers: 4|6|5|16|2|-4
+Correct Answers: 12|0|4|17|5|0
+Student Answers: false|false|false|false|false|false
+Student Was Correct: correct|correct|correct|correct|correct|correct
+Letters Shown: K|Q|P|L|H|S
+Students Letters: K|Q|L|H|S
+Time on Problem screen: 01.328|02.047|01.875|02|03.922|04.407
+Time on Answer Screen: 01.36|01.219|00.984|02.265|01|02.421
+Times on Recall screen: 02.5|00.719|00.406|01.578|01.031
+Session Letters Correct: 2 of 6
+Session Math Percentage: 100%
+
+****************** Trial  8 ******************
+Equations: (3*5) + 1|(2*6) - 7|(2*4) + 7|(6/6) + 3|(1*7) - 1
+Shown Answers: 11|-4|8|0|6
+Correct Answers: 16|5|15|4|6
+Student Answers: false|blank|false|false|true
+Student Was Correct: correct|incorrect|correct|correct|correct
+Letters Shown: H|F|Y|P|R
+Students Letters: -|-|Y|-|P
+Time on Problem screen: 04.5|06.672|05|04.469|03.875
+Time on Answer Screen: 02.266|00|02.046|02.297|00.859
+Times on Recall screen: 01.828|00.906|00.891|00.922|00.672
+Session Letters Correct: 1 of 5
+Session Math Percentage: 80%
+
+****************** Trial  9 ******************
+Equations: (1*3) - 6|(1*4) - 4|(5/1) - 8|(6/2) + 6|(1*7) - 9|(5*2) - 4
+Shown Answers: 5|-1|1|9|5|6
+Correct Answers: -3|0|-3|9|-2|6
+Student Answers: false|false|false|true|false|true
+Student Was Correct: correct|correct|correct|correct|correct|correct
+Letters Shown: N|H|F|Y|S|J
+Students Letters: N|H|F|Y|J
+Time on Problem screen: 02.828|01.578|04.015|02.391|05.563|03.36
+Time on Answer Screen: 01.547|01.547|01.063|00.922|01.469|00.75
+Times on Recall screen: 01.922|00.656|00.625|00.938|01.781
+Session Letters Correct: 4 of 6
+Session Math Percentage: 100%
+
+****************** Trial  10 ******************
+Equations: (2/2) - 1|(7*2) + 8|(4*2) - 4|(3/1) - 6|(9/1) + 5|(4/1) - 7|(4/2) + 7
+Shown Answers: -7|17|4|-3|14|-3|18
+Correct Answers: 0|22|4|-3|14|-3|9
+Student Answers: false|false|true|true|true|true|false
+Student Was Correct: correct|correct|correct|correct|correct|correct|correct
+Letters Shown: N|L|H|R|Q|T|S
+Students Letters: N|H|L|R|Q|T|S
+Time on Problem screen: 02.266|05.328|02.063|04.109|03.312|04.062|05.469
+Time on Answer Screen: 01.062|02.422|00.875|01.25|00.844|00.938|01.047
+Times on Recall screen: 01.75|00.532|00.546|02.375|00.485|00.437|00.5
+Session Letters Correct: 5 of 7
+Session Math Percentage: 100%
+
+****************** Trial  11 ******************
+Equations: (2*6) + 7|(6/6) - 7|(1*8) + 2
+Shown Answers: 19|-8|2
+Correct Answers: 19|-6|10
+Student Answers: true|false|false
+Student Was Correct: correct|correct|correct
+Letters Shown: S|L|K
+Students Letters: S|L|K
+Time on Problem screen: 02.594|03.906|03.516
+Time on Answer Screen: 03.203|02.015|01.171
+Times on Recall screen: 01.766|00.546|00.829
+Session Letters Correct: 3 of 3
+Session Math Percentage: 100%
+
+****************** Trial  12 ******************
+Equations: (1*8) - 1|(7/1) - 6|(5*2) + 4
+Shown Answers: 5|9|14
+Correct Answers: 7|1|14
+Student Answers: false|false|true
+Student Was Correct: correct|correct|correct
+Letters Shown: T|L|R
+Students Letters: T|L|R
+Time on Problem screen: 03.688|02.844|02.594
+Time on Answer Screen: 03.187|01.141|00.922
+Times on Recall screen: 00.922|01.516|00.562
+Session Letters Correct: 3 of 3
+Session Math Percentage: 100%
+
+****************** Trial  13 ******************
+Equations: (3*2) + 0|(5/1) - 6|(5*2) - 7|(8/8) - 3
+Shown Answers: 8|1|3|-4
+Correct Answers: 6|-1|3|-2
+Student Answers: false|false|true|false
+Student Was Correct: correct|correct|correct|correct
+Letters Shown: R|K|Q|J
+Students Letters: R|K|Q|J
+Time on Problem screen: 02.078|02.859|03.219|03.297
+Time on Answer Screen: 01.484|01.25|00.719|01.047
+Times on Recall screen: 02.25|01.078|00.64|00.657
+Session Letters Correct: 4 of 4
+Session Math Percentage: 100%
+
+****************** Trial  14 ******************
+Equations: (9/9) - 7|(1/1) + 2|(2*5) + 4|(2*2) - 0|(4/1) - 2|(6*2) + 2|(8/4) - 3
+Shown Answers: -14|3|14|4|2|7|-5
+Correct Answers: -6|3|14|4|2|14|-1
+Student Answers: false|true|true|true|true|false|false
+Student Was Correct: correct|correct|correct|correct|correct|correct|correct
+Letters Shown: L|R|S|K|H|J|T
+Students Letters: L|R|S|H|K|J|-
+Time on Problem screen: 03.063|03.031|01.515|03.922|04.047|04.719|06.578
+Time on Answer Screen: 02.125|00.812|00.844|00.703|00.719|00.984|01.688
+Times on Recall screen: 01.016|01.562|01.031|00.829|00.718|02.438|01.172
+Session Letters Correct: 4 of 7
+Session Math Percentage: 100%
+
+****************** Trial  15 ******************
+Equations: (1*2) + 8|(4/1) - 3|(1*9) - 0|(4*2) + 4|(1*4) + 0|(8/1) - 3|(8/2) + 6
+Shown Answers: 10|1|9|12|4|5|10
+Correct Answers: 10|1|9|12|4|5|10
+Student Answers: true|true|true|blank|true|true|true
+Student Was Correct: correct|correct|correct|incorrect|correct|correct|correct
+Letters Shown: R|H|L|S|N|T|K
+Students Letters: R|H|L|S|N|T|K
+Time on Problem screen: 01.453|03.156|01.516|06.672|02.437|03.219|03.984
+Time on Answer Screen: 00.75|00.656|00.656|00|00.813|00.703|00.656
+Times on Recall screen: 02.25|02.656|00.672|00.765|00.719|00.594|00.656
+Session Letters Correct: 7 of 7
+Session Math Percentage: 86%

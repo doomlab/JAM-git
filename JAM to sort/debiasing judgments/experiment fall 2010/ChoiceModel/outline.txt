@@ -1,0 +1,83 @@
+OUTLINE
+
+Title
+Association as choice:  A random utility model of free association, associative judgment, and other associative phenomena
+
+Authors
+William S. Maki, University of Arizona
+Erin Buchanan, Missouri State University
+
+Abstract
+
+Introduction
+1. General intro to association and its measurement
+*** history -- Esper
+*** from Galton
+*** via Cramer's review
+*** to Nelson et al. norms
+2. Continuing importance of associative phenomena
+2a. Association and modern computational approaches to cognition
+*** e.g., Steyvers et al.
+2b. Enduring theoretical issue - item vs. associative information
+*** Buchler, Light, & Reder 2008
+2c. Associative judgments as a microworld for metacognitive judgments
+*** e.g., Koriat & Bjork
+3. Association as choice
+3a. Analogy between buying an automobile and selecting the strongest associate in a free association test
+3b. Choice theory
+*** Luce choice axiom
+*** History???
+*** Quantitative model (from Yellott, 1977)
+3c. Similarity to Nelson-McEvoy-Dennis model
+4. Preview of rest of paper
+4a. Discovering theoretical means
+4b. Application to reliability of free associations
+4c. Application to associative judgments
+4d. Application to rank order judgments
+4e. Exploring associative combination
+5. Discovering theoretical means
+*** like Maki 2008
+*** but using Luce choice axiom, P=v/sum(v)
+*** where v=exp(a*u)
+*** Use gradient descent to find u for each cue-response pair
+6. Application to reliability of free associations
+*** Because of distribution overlap, and random sampling
+*** assumption, reliability is less than perfect.
+*** meta-analysis of test-retest results from late 1960s
+*** model predictions
+*** possible sources of repeat rates at intervals < 1 year
+7. Application to associative judgments
+*** rewrite choice axiom as v=P * sum(v)
+*** or, more generally, v = c + sum(v) * P
+*** Thus choice model predicts that judgments of associative strength
+*** are a linear function of free association probabilities --
+*** and that is the JAM function (Maki, 2007a, 2007b)
+*** Summarize judgment data from Maki, 2007a, 2007b
+*** Use search routines to recover FSG and BSG weighting values
+*** as well as values of bias parameter for each experiment.
+*** Discuss fit of model
+8. Application to rank order judgments
+*** Because of overlap, like reliability, rank order judgments are 
+*** less than perfect.
+*** Illustrative experiment from Krimsky's summer RA-ship
+*** Application of model
+*** Weightings suggest different strategy for rank order judgments
+*** (relying more on BSG than on FSG)
+9. Exploring associative combination
+*** Question:  are the weights determining the FSGxBSG interaction
+*** susceptible to attentional control?
+*** Debiasing experiment
+*** Application of model -- debiasing reduces bias and does not 
+*** influence associative weights
+*** Implications for metacognitive views (Koriat & Bjork)
+10. Conclusion
+*** Recap
+*** relation to other approaches -- e.g., PIER, Nelson-McEvoy-Dennis
+*** metacognitive stuff (Koriat & Bjork)
+*** Whiz-bang ending
+
+References
+
+Author note
+
+Acknowlegements

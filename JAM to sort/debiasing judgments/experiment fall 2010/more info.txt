@@ -1,0 +1,21 @@
+Erin,
+
+In the sorted all the same and experimental groups tabs:
+could you provide the N for the rightmost column?
+
+16Éshould we exclude the people who left the final form blank?  I mean, I said like 8 times to do the form.  I don't know what why that group has such a bad split - they were all mixed together when I ran them.
+
+
+MCO form 1 = control group sort 1 
+mct form 2 = control group sort 2
+
+msf = steak-sirlion, fawn first, experimental group
+msi = steak-sirlion, insight first, experimental group
+mif = sirlion-steak, fawn first, experimental groups
+mii = sirlion-steak, insight first, experimental groups
+
+
+- created total overalls and ran regressions - see pdf.  WHat other analyses do you want?
+
+- presentation makes sense to me - as long as there's some connection between all the luce stuff and all our ideas.  I think when you talk there will be, it's just a bit blank at the moment.
+erin 11.13.10 5:30

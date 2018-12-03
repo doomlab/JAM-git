@@ -1,0 +1,82 @@
+<include>
+/ file = "C:\Documents and Settings\Pumm207B\Desktop\load experiment\control load\instructions.exp"
+/ file = "C:\Documents and Settings\Pumm207B\Desktop\load experiment\control load\trials.exp"
+/ file = "C:\Documents and Settings\Pumm207B\Desktop\load experiment\control load\text.exp"
+</include>
+
+<data>
+/ columns = [date time subject trialcode trialnum latency response]
+/ format = tab
+</data>
+
+<defaults>
+/ font = ("Verdana", -13, 400, 0, 34)
+/ screencolor = (220,220,220)
+/ txcolor=(0,0,0)
+/ pretrialpause = 500
+/ posttrialpause = 500
+/ endlock = true
+</defaults>
+
+<instruct>
+/ font = ("Verdana", -13, 400, 0, 34)
+/ lastlabel = "Press enter to continue ..."
+/ nextkey = (28)
+/ nextlabel ="Press enter for next page"
+/ prevkey = (14)
+/ prevlabel = "Press Backspace for Previous page"
+/ wait = 1000
+/ windowsize = (640,400)
+</instruct>
+
+<block freeassoc>
+/ preinstructions = (first, second)
+/ trials = [1-3 = random(fa1, fa2, fa3)]
+/ postinstructions = (wait)
+</block>
+
+<block pracrating1>
+/ preinstructions = (third)
+/ trials = [1-4 = random(prac1, prac2, prac3, prac4)]
+/ postinstructions = (loadinstruct)
+</block>
+
+<block pracrating2>
+/ trials = [1-4 = random(prac5, prac6, prac7, prac8); 5 = writewords]
+/ postinstructions = (fourth)
+</block>
+
+<block realrating>
+/ trials = [1 = sequence(
+real13, real67, real39, real18, real56, writewords, 
+real19, real31, real53, writewords, 
+real26, real78, real79, real20, real57, real93, real23, writewords, 
+real49, real68, real88, real12, real66, writewords, 
+real76, real11, real32, real4, writewords, 
+real94, real84, real25, writewords, 
+real9, real46, real41, writewords, 
+real51, real36, real15, writewords, 
+real73, real50, real59, real90, real69, writewords, 
+real92, real74, real85, real28, writewords, 
+real17, real38, real2, real1, real91, real86, writewords, 
+real27, real77, real16, real64, writewords, 
+real33, real14, real44, real81, real95, writewords, 
+real6, real34, real30, real48, real62, real37, writewords, 
+real47, real61, real96, real42, real35, real87, real70, writewords, 
+real40, real72, real7, real10, real8, real71, writewords, 
+real63, real60, real54, writewords, 
+real82, real89, real75, real5, writewords, 
+real80, real58, real83, real21, real3, real29, real24, writewords, 
+real55, real22, real52, real65, real45, real43, writewords, 
+)]
+/ postinstructions = (fifth)
+</block>
+
+<block followup>
+/ trials = [1-2 = random(followup1, followup2)]
+/ postinstructions = (sixth)
+</block>
+
+<expt>
+/ blocks = [1= freeassoc; 2= pracrating1;3=pracrating2; 4=realrating; 5=followup;]
+</expt>

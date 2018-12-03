@@ -1,0 +1,27 @@
+Tabs are
+alldata
+sorted
+master pairs
+means
+
+alldata: copied from your spreadsheet
+
+sorted: sorted A-Z by cue and means computed on far right for ctrl vs. exptl x passing vs. failing quiz
+
+master pairs: pairs sorted A-Z by cue with various measures, esp. fsg and bsg.  Numerical codes computed on far right for use in SPSS.
+
+means: columns A-H contain the data for plugging into SPSS for mixed ANOVA.  Summary means in cols J-O.  Separate plots for Ss failing quiz and Ss passing quiz.
+
+Analysis and interpretation:
+Results at odds with Ole Miss outcome -- here we see debiasing affects both intercept and slope!  But interaction stays about the same. Still thinking on that.  Need to find out which effects are significant and which are not.
+
+Can you run this analysis?
+Use columns C-H as input.  TRANSFORM THEM USING X'=10*X+4.5
+Fwd and Bkwd are "between groups" (actually between items) factors
+Other four columns are within-S factors: 
+MeanCI MeanCC MeanXI Mean XC
+Slowest changing factor is control (C) vs. experimental (X)
+Fastest changing factor is failing (I) vs. passing (C) quiz.
+Let's see what comes of this right quick.
+
+Right now I am thinking that the earlier manipulation (Ole Miss) was too weak - adding error correction to the debiasing really hit 'em on the head and caused at least a stronger focus on FSG.

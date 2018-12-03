@@ -1,0 +1,1296 @@
+<likert prac1>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =STEAK, assoc;]
+/ trialcode = "prac1"
+</likert>
+
+<likert prac2>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SISTER, assoc;]
+/ trialcode = "prac2"
+</likert>
+
+<likert prac3>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =WET, assoc;]
+/ trialcode = "prac3"
+</likert>
+
+<likert prac4>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =HORSE, assoc;]
+/ trialcode = "prac4"
+</likert>
+
+<likert prac5>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =HELP, assoc;]
+/ trialcode = "prac5"
+</likert>
+
+<likert prac6>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =CORN, assoc;]
+/ trialcode = "prac6"
+</likert>
+
+<likert prac7>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =HATE, assoc;]
+/ trialcode = "prac7"
+</likert>
+
+<likert prac8>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =CHEDDAR, assoc;]
+/ trialcode = "prac8"
+</likert>
+
+<likert real1>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FAWN, assoc;]
+/ trialcode = "real1"
+</likert>
+
+<likert real2>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =NUT, assoc;]
+/ trialcode = "real2"
+</likert>
+
+<likert real3>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SESSION, assoc;]
+/ trialcode = "real3"
+</likert>
+
+<likert real4>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =HIGH, assoc;]
+/ trialcode = "real4"
+</likert>
+
+<likert real5>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =PEPPER, assoc;]
+/ trialcode = "real5"
+</likert>
+
+<likert real6>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =MALE, assoc;]
+/ trialcode = "real6"
+</likert>
+
+<likert real7>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =MONEY, assoc;]
+/ trialcode = "real7"
+</likert>
+
+<likert real8>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =TISSUE, assoc;]
+/ trialcode = "real8"
+</likert>
+
+<likert real9>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =MARROW, assoc;]
+/ trialcode = "real9"
+</likert>
+
+<likert real10>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SPORT, assoc;]
+/ trialcode = "real10"
+</likert>
+
+<likert real11>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =DEATH, assoc;]
+/ trialcode = "real11"
+</likert>
+
+<likert real12>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SERPENT, assoc;]
+/ trialcode = "real12"
+</likert>
+
+<likert real13>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FINGERNAIL, assoc;]
+/ trialcode = "real13"
+</likert>
+
+<likert real14>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =CRACKLE, assoc;]
+/ trialcode = "real14"
+</likert>
+
+<likert real15>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =TEN, assoc;]
+/ trialcode = "real15"
+</likert>
+
+<likert real16>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =REQUEST, assoc;]
+/ trialcode = "real16"
+</likert>
+
+<likert real17>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =BUYER, assoc;]
+/ trialcode = "real17"
+</likert>
+
+<likert real18>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =VACUUM, assoc;]
+/ trialcode = "real18"
+</likert>
+
+<likert real19>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =NORTH, assoc;]
+/ trialcode = "real19"
+</likert>
+
+<likert real20>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =CAN, assoc;]
+/ trialcode = "real20"
+</likert>
+
+<likert real21>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =GO, assoc;]
+/ trialcode = "real21"
+</likert>
+
+<likert real22>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =WORLD, assoc;]
+/ trialcode = "real22"
+</likert>
+
+<likert real23>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =PLANET, assoc;]
+/ trialcode = "real23"
+</likert>
+
+<likert real24>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =STEPS, assoc;]
+/ trialcode = "real24"
+</likert>
+
+<likert real25>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =GUEST, assoc;]
+/ trialcode = "real25"
+</likert>
+
+<likert real26>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =CLEAN, assoc;]
+/ trialcode = "real26"
+</likert>
+
+<likert real27>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =LAUGH, assoc;]
+/ trialcode = "real27"
+</likert>
+
+<likert real28>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =TRIBE, assoc;]
+/ trialcode = "real28"
+</likert>
+
+<likert real29>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =NEGATIVE, assoc;]
+/ trialcode = "real29"
+</likert>
+
+<likert real30>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FULL, assoc;]
+/ trialcode = "real30"
+</likert>
+
+<likert real31>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =KICK, assoc;]
+/ trialcode = "real31"
+</likert>
+
+<likert real32>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FLOWER, assoc;]
+/ trialcode = "real32"
+</likert>
+
+<likert real33>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =DINNER, assoc;]
+/ trialcode = "real33"
+</likert>
+
+<likert real34>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =ASTRONAUT, assoc;]
+/ trialcode = "real34"
+</likert>
+
+<likert real35>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =TOSS, assoc;]
+/ trialcode = "real35"
+</likert>
+
+<likert real36>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SWAMP, assoc;]
+/ trialcode = "real36"
+</likert>
+
+<likert real37>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FAIRYTALE, assoc;]
+/ trialcode = "real37"
+</likert>
+
+<likert real38>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =NAIL, assoc;]
+/ trialcode = "real38"
+</likert>
+
+<likert real39>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =BLEACH, assoc;]
+/ trialcode = "real39"
+</likert>
+
+<likert real40>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =WAG, assoc;]
+/ trialcode = "real40"
+</likert>
+
+<likert real41>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SLOW, assoc;]
+/ trialcode = "real41"
+</likert>
+
+<likert real42>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =WOOD, assoc;]
+/ trialcode = "real42"
+</likert>
+
+<likert real43>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =AIR, assoc;]
+/ trialcode = "real43"
+</likert>
+
+<likert real44>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =DIRECTION, assoc;]
+/ trialcode = "real44"
+</likert>
+
+<likert real45>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =VARY, assoc;]
+/ trialcode = "real45"
+</likert>
+
+<likert real46>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =GRANDPA, assoc;]
+/ trialcode = "real46"
+</likert>
+
+<likert real47>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =RAGE, assoc;]
+/ trialcode = "real47"
+</likert>
+
+<likert real48>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =REJECT, assoc;]
+/ trialcode = "real48"
+</likert>
+
+<likert real49>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =BRACES, assoc;]
+/ trialcode = "real49"
+</likert>
+
+<likert real50>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =DAD, assoc;]
+/ trialcode = "real50"
+</likert>
+
+<likert real51>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =LIKE, assoc;]
+/ trialcode = "real51"
+</likert>
+
+<likert real52>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =MATH, assoc;]
+/ trialcode = "real52"
+</likert>
+
+<likert real53>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SNAIL, assoc;]
+/ trialcode = "real53"
+</likert>
+
+<likert real54>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =BABY, assoc;]
+/ trialcode = "real54"
+</likert>
+
+<likert real55>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =WOMAN, assoc;]
+/ trialcode = "real55"
+</likert>
+
+<likert real56>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =ADD, assoc;]
+/ trialcode = "real56"
+</likert>
+
+<likert real57>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =ROBIN, assoc;]
+/ trialcode = "real57"
+</likert>
+
+<likert real58>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FUEL, assoc;]
+/ trialcode = "real58"
+</likert>
+
+<likert real59>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SPANK, assoc;]
+/ trialcode = "real59"
+</likert>
+
+<likert real60>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =RAIN, assoc;]
+/ trialcode = "real60"
+</likert>
+
+<likert real61>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =GOOD, assoc;]
+/ trialcode = "real61"
+</likert>
+
+<likert real62>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SCREAM, assoc;]
+/ trialcode = "real62"
+</likert>
+
+<likert real63>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =WORK, assoc;]
+/ trialcode = "real63"
+</likert>
+
+<likert real64>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =ETERNITY, assoc;]
+/ trialcode = "real64"
+</likert>
+
+<likert real65>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =CELL, assoc;]
+/ trialcode = "real65"
+</likert>
+
+<likert real66>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =BOAT, assoc;]
+/ trialcode = "real66"
+</likert>
+
+<likert real67>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SCUBA, assoc;]
+/ trialcode = "real67"
+</likert>
+
+<likert real68>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =PET, assoc;]
+/ trialcode = "real68"
+</likert>
+
+<likert real69>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =HERE, assoc;]
+/ trialcode = "real69"
+</likert>
+
+<likert real70>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =STEAL, assoc;]
+/ trialcode = "real70"
+</likert>
+
+<likert real71>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =BULLET, assoc;]
+/ trialcode = "real71"
+</likert>
+
+<likert real72>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =VALUE, assoc;]
+/ trialcode = "real72"
+</likert>
+
+<likert real73>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FRONT, assoc;]
+/ trialcode = "real73"
+</likert>
+
+<likert real74>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =QUESTION, assoc;]
+/ trialcode = "real74"
+</likert>
+
+<likert real75>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SHORTCAKE, assoc;]
+/ trialcode = "real75"
+</likert>
+
+<likert real76>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FORGET, assoc;]
+/ trialcode = "real76"
+</likert>
+
+<likert real77>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =DOOR, assoc;]
+/ trialcode = "real77"
+</likert>
+
+<likert real78>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =GUARD, assoc;]
+/ trialcode = "real78"
+</likert>
+
+<likert real79>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SOAP, assoc;]
+/ trialcode = "real79"
+</likert>
+
+<likert real80>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =JET, assoc;]
+/ trialcode = "real80"
+</likert>
+
+<likert real81>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FATHER, assoc;]
+/ trialcode = "real81"
+</likert>
+
+<likert real82>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =CREAM, assoc;]
+/ trialcode = "real82"
+</likert>
+
+<likert real83>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =COMPANION, assoc;]
+/ trialcode = "real83"
+</likert>
+
+<likert real84>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =DECOMPOSE, assoc;]
+/ trialcode = "real84"
+</likert>
+
+<likert real85>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SHARK, assoc;]
+/ trialcode = "real85"
+</likert>
+
+<likert real86>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =RELAX, assoc;]
+/ trialcode = "real86"
+</likert>
+
+<likert real87>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =BOY, assoc;]
+/ trialcode = "real87"
+</likert>
+
+<likert real88>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SMEAR, assoc;]
+/ trialcode = "real88"
+</likert>
+
+<likert real89>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =FLESH, assoc;]
+/ trialcode = "real89"
+</likert>
+
+<likert real90>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SHERIFF, assoc;]
+/ trialcode = "real90"
+</likert>
+
+<likert real91>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =DOLPHIN, assoc;]
+/ trialcode = "real91"
+</likert>
+
+<likert real92>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =UNCLE, assoc;]
+/ trialcode = "real92"
+</likert>
+
+<likert real93>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =CUB, assoc;]
+/ trialcode = "real93"
+</likert>
+
+<likert real94>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =HURT, assoc;]
+/ trialcode = "real94"
+</likert>
+
+<likert real95>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =SNEAKER, assoc;]
+/ trialcode = "real95"
+</likert>
+
+<likert real96>
+/ anchors = [1 = "0-9"; 2 = "10-19"; 3 = "20-29"; 4 ="30-39"; 5 = "40-49"; 6="50-59"; 7="60-69"; 8="70-79"; 9="80-89"; 10 = "90-100";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 10
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =INSIGHT, assoc;]
+/ trialcode = "real96"
+</likert>
+
+<openended fa1>
+/ frames = [1=freeassociate, LOST;]
+/ buttonlabel =  "CONTROL ENTER"
+/ charlimit = 40
+/ linelength = 40
+/ trialcode = "lost"
+</openended>
+
+<openended fa2>
+/ frames = [1=freeassociate, OLD;]
+/ buttonlabel =  "CONTROL ENTER"
+/ charlimit = 40
+/ linelength = 40
+/ trialcode = "old"
+</openended>
+
+<openended fa3>
+/ frames = [1=freeassociate, ARTICLE;]
+/ buttonlabel =  "CONTROL ENTER"
+/ charlimit = 40
+/ linelength = 40
+/ trialcode = "article"
+</openended>
+
+<likert followup1>
+/ anchors = [1 = "a"; 2 = "b"; 3 =  "c"; 4 = "d";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 4
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =question1;]
+/ trialcode = "followup1"
+</likert>
+
+<likert followup2>
+/ anchors = [1 = "a"; 2 = "b"; 3 =  "c"; 4 = "d";]
+/ correctmessage = false 
+/ errormessage = false 
+/ mouse = true
+/ numpoints = 4
+/ position = (50,60)
+/ posttrialpause = 500
+/ stimulusframes = [1 =question2;]
+/ trialcode = "followup2"
+</likert>
+

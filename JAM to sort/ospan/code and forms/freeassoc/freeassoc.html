@@ -1,0 +1,258 @@
+<html>
+
+<head>
+<script language="JavaScript">
+var currentLayer = 'page1';
+function showLayer(lyr){
+	hideLayer(currentLayer);
+	document.getElementById(lyr).style.visibility = 'visible';
+	currentLayer = lyr;
+}
+
+function hideLayer(lyr){
+	document.getElementById(lyr).style.visibility = 'hidden';
+}
+function showValues(form){
+	var values = '';
+	var len = form.length - 1; //Leave off Submit Button
+	for(i=0; i<len; i++){
+		if(form[i].id.indexOf("C")!=-1||form[i].id.indexOf("B")!=-1)//Skip Continue and Back Buttons
+			continue;
+		values += form[i].id;
+		values += ': ';
+		values += form[i].value;
+		values += '\n';
+	}
+	alert(values);
+}
+
+</script>
+<style>
+.page{
+	position: absolute;
+   top: 10;
+   left: 100;
+   visibility: hidden;
+}
+</style>
+</head>
+
+<body>
+
+
+<br>
+<form id="freeassoc" method="POST" action="http://www.olemiss.edu/depts/psychology/exp/freeassoc/freeassoc.php">
+
+<div id="page1" class="page" style="visibility:visible;">
+
+
+<table wdith=80% cellspacing="0" border="0" bgcolor="#FFFFFF">
+<tr valign="top">Free Association Data</td></tr>
+<tr><td><br><br>Please enter your id number, so we may give you credit:
+ <br><br><input type="text" name="idnumber" maxlength="100" size="30"></td></tr>  
+</table>
+
+<p><input type="button" id="C1" value="Continue" onClick="showLayer('page2')"></p>
+
+</div>
+
+<div id="page2" class="page">
+<table width=80% cellspacing="0" border="0" bgcolor="#FFFFFF">
+<tr valign="top"><td>Instructions</td><tr>
+<tr><td>
+<br>Introduction to Word Association Experiment
+
+This experiment is concerned with the structure of human associative memory.  
+This knowledge is structured in some way and the mental structure is thought 
+to come about through a process of associative learning.  For example, consider 
+the word (and concept of) DOG.  We often see the word DOG appear in the same 
+context as the word CAT.  It's raining cats and dogs.  I have two dogs, but 
+my neighbor has a cat.  And so on.  By experiencing the words CAT and DOG together 
+many times, we develop an association (a mental connection) between them.  With lots 
+of this kind of associative learning experience during our lives, we develop a very 
+large and very complex associative memory.
+
+<p>Psychologists are interested in understanding the structure of associative memory 
+and have several ways of investigating it.  One method of investigating associative 
+memory is known as a test of free association.  In free association tests, 
+participants like you are given a series of words and are asked to respond to each 
+word by writing the first word that pops into mind.  
+</td></tr></table>                      
+
+<p><input type="button" id="C1" value="Continue" onClick="showLayer('page3')"></p>
+
+</div>
+
+
+<div id="page3" class="page">
+<table width=80% cellspacing="0" border="0" bgcolor="#FFFFFF">
+<tr valign="top"><td>Examples</td></tr>
+<tr><td><br><br>
+Here is an example of a free association test.
+
+In the space provided, please write the first couple of words that come
+to your mind in response to each of the following words.
+<br><br>
+Lost:<br>
+<textarea name="lost" rows="5" cols="40"></textarea><br><br>
+Old:<br>
+<TEXTAREA name="old" rows="5" cols="40"></textarea><br><br>
+Article:<br>
+<TEXTAREA name="article" rows="5" cols="40"></textarea><br><br>
+
+After you fill in the boxes above, please hit continue.
+
+</td></tr></table>                      
+
+<p><input type="button" id="C1" value="Continue" onClick="showLayer('page4')"></p>
+
+</div>
+
+<div id="page4" class="page">
+<table width=80% cellspacing="0" border="0" bgcolor="#FFFFFF">
+<tr valign="top"><td>Examples</td></tr>
+<tr><td><br><br>
+For LOST, most people would simply write FOUND.
+<br><br>
+For OLD, most people would write both OLD and NEW.
+<br><br>
+For ARTICLE, most people write several different answers, such as CLOTHING, NEWSPAPER, MAGAZINE, etc.
+<br><br>
+As you can see, some words have only one main association, while others have many main associations.
+In this task, you will try to figure out how many associates each word has.  The words
+will have the same characteristics as the words above.  We have listed words with several associates 
+(up to five) and words with many associates (up to thirty).  
+<br> Therefore, for each word listed, please enter a number for how many associates you think it has.  The number should range from 1-30.
+<br><br>
+
+
+Now you can complete the experiment by filling numbers for the following words.  Please continue
+until you see the "Submit" button.  Following submitting, you will see a thank you 
+page which indicates you are finished.  If you close the window before hitting submit, you will have to start over.<br>
+Questionnaires that are partially completed will receive partial credit (i.e. blank answers, the same answer typed several times, etc).<br>
+
+</td></tr></table>                      
+
+<p><input type="button" id="C1" value="Continue" onClick="showLayer('page5')"></p>
+
+</div>
+
+<div id="page5" class="page">
+<table width=80% cellspacing="0" border="0" bgcolor="#FFFFFF">
+<tr valign="top"><td>Page 1</td></tr>
+<tr><td><br><br>Please type how many associates you think each word has:
+<br><br>
+Bum:<br>
+<TEXTAREA name="bum" rows="1" cols="10"></textarea>
+<p>
+Chauffeur:<br>
+<TEXTAREA name="chauffeur" rows="1" cols="10"></textarea>
+<p>
+Chowder:<br>
+<TEXTAREA name="chowder" rows="1" cols="10"></textarea>
+<p>
+Bashful:<br>
+<TEXTAREA name="bashful" rows="1" cols="10"></textarea>
+<p>
+Racket:<br>
+<TEXTAREA name="racket" rows="1" cols="10"></textarea>
+<p>
+Casual:<br>
+<TEXTAREA name="casual" rows="1" cols="10"></textarea>
+<p>
+Pupil:<br>
+<TEXTAREA name="pupil" rows="1" cols="10"></textarea>
+<p>
+Assist:<br>
+<TEXTAREA name="assist" rows="1" cols="10"></textarea>
+<p>
+Dancer:<br>
+<TEXTAREA name="dancer" rows="1" cols="10"></textarea>
+<p>
+Organize:<br>
+<TEXTAREA name="organize" rows="1" cols="10"></textarea>
+<p>
+Corpse:<br>
+<TEXTAREA name="corpse" rows="1" cols="10"></textarea>
+<p>
+Peaceful:<br>
+<TEXTAREA name="peaceful" rows="1" cols="10"></textarea>
+<p>
+Computer:<br>
+<TEXTAREA name="computer" rows="1" cols="10"></textarea>
+<p>
+Bouquet:<br>
+<TEXTAREA name="bouquet" rows="1" cols="10"></textarea>
+<p>
+Common:<br>
+<TEXTAREA name="common" rows="1" cols="10"></textarea>
+<p>
+
+After you fill in the boxes above, please hit continue.
+
+</td></tr></table>                      
+
+<p><input type="button" id="C1" value="Continue" onClick="showLayer('page6')"></p>
+
+</div>
+
+<div id="page6" class="page">
+<table width=80% cellspacing="0" border="0" bgcolor="#FFFFFF">
+<tr valign="top"><td>Page 2</td></tr>
+<tr><td><br><br>Please type how many associates you think each word has:
+<br><br>
+Closed:<br>
+<TEXTAREA name="closed" rows="1" cols="10"></textarea>
+<p>
+Cloth:<br>
+<TEXTAREA name="cloth" rows="1" cols="10"></textarea>
+<p>
+Melody:<br>
+<TEXTAREA name="melody" rows="1" cols="10"></textarea>
+<p>
+Car:<br>
+<TEXTAREA name="car" rows="1" cols="10"></textarea>
+<p>
+Dangerous:<br>
+<TEXTAREA name="dangerous" rows="1" cols="10"></textarea>
+<p>
+Before<br>
+<TEXTAREA name="before" rows="1" cols="10"></textarea>
+<p>
+Beginning:<br>
+<TEXTAREA name="beginning" rows="1" cols="10"></textarea>
+<p>
+Difficult:<br>
+<TEXTAREA name="difficult" rows="1" cols="10"></textarea>
+<p>
+Break:<br>
+<TEXTAREA name="break" rows="1" cols="10"></textarea>
+<p>
+Patience:<br>
+<TEXTAREA name="patience" rows="1" cols="10"></textarea>
+<p>
+Cinema:<br>
+<TEXTAREA name="cinema" rows="1" cols="10"></textarea>
+<p>
+Challenge:<br>
+<TEXTAREA name="challenge" rows="1" cols="10"></textarea>
+<p>
+Body:<br>
+<TEXTAREA name="body" rows="1" cols="10"></textarea>
+<p>
+Blow:<br>
+<TEXTAREA name="blow" rows="1" cols="10"></textarea>
+<p>
+Meow:<br>
+<TEXTAREA name="meow" rows="1" cols="10"></textarea>
+<p>
+
+After you fill in the boxes above, please hit submit.
+</td></tr></table>                      
+
+<tr><td align="right"><input type="submit" value="Submit" name="Submit"></td></tr></table></div>
+
+</form>
+</body>
+</html>
+

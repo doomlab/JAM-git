@@ -1,0 +1,36 @@
+Free Association Data p73
+Practice:
+lost stolen
+old new
+article boring
+Experimental:
+bum     6
+chauffeur 7
+chowder 10
+bashful 20
+racket 12
+casual 11
+pupil 2
+assist 7
+dancer 4
+organize 10
+corpse 20
+peaceful 39
+computer 24
+bouquet 25
+common 14
+closed 6
+cloth 7
+melody 18
+car     20
+dangerous       11
+before 13
+beginning 10
+difficult 12
+break 15
+patience 20
+cinema  22
+challenge 21
+body 10
+blow 8
+meow 12

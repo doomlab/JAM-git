@@ -1,0 +1,33 @@
+Association as choice
+
+3. Association as choice
+3a. Analogy between buying an automobile and selecting the strongest associate in a free association test
+3b. Choice theory
+*** Luce choice axiom
+*** History???
+*** Quantitative model (from Yellott, 1977)
+3c. Similarity to Nelson-McEvoy-Dennis model
+
+To begin the analogy of association as choice, consider a consumer making a purchase of an automobile.   At the time of this writing, there is increased focus on manufacture and sales of fuel efficient vehicles.  Suppose the customer wishes to purchase a gasoline-electric "hybrid" automobile.  That selection of a category of vehicle renders irrelevant all other types of vehicle leaving only hybrids in the set of vehicles from which one will be chosen.  This is known as *independence from irrelevant alternatives*, or "IIA" (Luce, 1959; Train, 2003).  That is, the customer will choose among only those vehicles belonging to the set of hybrids; other vehicles will not enter into the decision.  This is not to say that properties of other vehicles will not influence the decision; thinking of the disadvantages of other kinds of vehicles might very well help guide the choice among hybrids.  But the ultimate choice is among hybrids and not among all possible vehicles (Footnote 1).  Moreover, this choice set containing only hybrids exhibits three necessary properties of discrete choices (Train, 2003).  The number of alternatives is finite (can be counted), the alternatives are mutually exclusive (only one is chosen), and the set of vehicles is exhaustive (all hybrids are included).  One other property of these choices is that they are variable.  Choice of a vehicle differs across people and even across time.  Thus each object in the choice set is conceived of as a distribution of values (e.g., Train, 2003; Yellott, 1977).  The distributions are assumed to be identical but independent, i.e., having the properity of identical but independent distributions ("IID").  The overlap among these distributions is what makes choices variable.
+
+Our position is that the free association task is analogous to the decision faced by the automobile buyer.  The stimulus word (cue) restricts the set of possible responses (targets).  Thus, the set of response words can be characterized by IIA.  Again, this is not to say that other information (like distant activations; Nelson, McEvoy, & Pointer, 2003) will not influence the words entering the choice set, but ultimately the choice is made among the contenders in that choice set and not among all possible words in the lexicon.  The other properties of discrete choices also apply:  the number of response words is finite, the alternatives are exclusive (usually only one response is permitted), 
+and the set of response words is exhaustive.  Moreover, variability in free associations has been explained by viewing each cue-target association as a distribution of associative values (Nelson, McEvoy, & Dennis, 2000)(Footnote 2) with the set having the property of IID.  An illustration of such distributions is presented in Figure 1 for the cue word CANARY.  Each of CANARY's four principal associates has a corresponding distribution.  The overlap in the distributions produces the variability in associative behaviors discussed later in this paper.
+
+//// FIGURE 1 here /////
+
+In sum, we defend our analogy between economic and associative choices by highlighting five similarities:  a finite choice set, an exhaustive set, mutually exclusive alternatives, independence from irrelevant alternatives, and the conception of each object in the set as a distribution of values.  If the analogy has merit, then the well-researched mathematics of economic (and other) choices also should apply to the case of free association and other associative phenomena.
+
+Footnote 1.  In addition, accepting the IIA criterion simplifies computation and is useful from a modeling perspective (Train, 2003).
+
+Footnote 2.  Nelson et al. (2000) presented a model in which associates were cast as overlapping identical, normal distributions.  Using the Nelson et al. model, Maki (2008) reported a database of distribution means for the entire set of association norms (Nelson et al., 2004).  However, neither Nelson et al. (2000) nor Maki (2008) recognized their model as related to random utility models and did not connect it to models of choice behavior.  We are indebted to Rob Nosofsky who, in a review of a previous manuscript, pointed out the correspondence between the Nelson et al. model and random utility models.
+
+According to Luce's (1959) choice axiom, the probability of selecting alternative i from choice set S is
+pi = vi/sum(vj), j in S  ::: Eq. 1A
+where v can be taken as response strength (Luce, 1977); in the present case, v is the associative strength.  The choice axiom spawned a large literature in mathematical psychology (e.g., Bundesen, 1993; Yellott, 1977) and other social sciences, notably ecomonics (McFadden, 2002/2003; Train, 2003).  For present purposes, however, the mathematics reduce to just a few additional equations.
+
+Yellott (1977) provides a readable account of the basic mathematics of choice theory.  We follow Yellott's lead in letting the distribution associated with each alternative in the choice set be the double exponential distribution; we also keep many of the same symbols used by Yellott (but substitute Greek letter equivalents for theoretical values).  The double exponential distribution has the probability density function
+//////////NOTE hereafter a=alpha, b=beta, u=mu /////////////////
+f(x) = a exp[-a(x-u)] exp[-exp[-a(x-u)]]  ::: Eq. 2
+The (left-hand) tail probability of value x is given by
+p(u+x <= x) = exp[-exp[-[a(x-u)+b]]]   ::: Eq. 3
+In Eq. 2 and Eq. 3, u is an offset value that serves to separate the strength distributions.  In the remainder of this paper, the arbitrary constant b will be ignored (b = 0), and a = pi/sqrt(6).  With that value of a (Train, 2003; Yellott, 1977), the standard deviation of the double exponential is 1.0, and the mean of the distribution is u+gamma/a (where gamma is Euler's constant).  Moreover, assuming the double exponential, in Eq. 1, vi = exp(a ui).  Thus, each element in the choice set has a corresponding response strength, vi, and a corresponding offset, ui.  To complete the application to associative choice, we follow Nelson et al. (2000) and make two assumptions.  (1) The choice among competing associates for a given cue word is the maximum of the alternative response strengths active at the time of choice.  (2) Each of the alternative response strengths is a random sample from the corresponding distribution of strengths.
